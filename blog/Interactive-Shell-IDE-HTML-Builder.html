@@ -1,0 +1,3443 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <meta charset="utf-8">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="DhNBa18S7CdoEzQqa6aCbDeotvvE7fYzdLcyZbKw">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name='robots' content="index, follow, all">
+
+    <meta name="description" content="Interactive Shell IDE - HTML Builder. Codepen-alternative.">
+    <meta name="copyright" content="Interactive Shell">
+    <meta name="DC.title" content="Interactive Shell">
+    <meta name="keywords" content="interactive shell, shell, interactiveshell, online shell, ide, online ide, interactive shell, linux shell, ubuntu, docker, vm, rhel, suse, ps7, powershell, online bash shell, execute bash script online, online bash ide,online editor, online code editor, online ide, online compiler, online interpreter, run code online, learn programming online,            online debugger, programming in browser, online code runner, online code execution, debug online, debug C code online, debug C++ code online,            programming online, snippet, snippets, code snippet, code snippets, pastebin, execute code, programming in browser, run c online, run C++ online, run java online, run python online, run ruby online, run c# online, run rust online, run pascal online, run basic online">
+    <meta property="og:description" content="Interactive Shell IDE - HTML Builder. Codepen-alternative.">
+    <meta name='twitter:description' content='Interactive Shell IDE - HTML Builder. Codepen-alternative.'>
+
+<meta name="layoutmode" content="fitscreen/standard">
+<link rel="home" href="../index.htm">
+
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#da0b4e">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="../favicon1.ico" type="image/x-icon">
+<link rel="shortcut icon" href="../favicon1.ico" type="image/x-icon">
+
+<!-- Open Graph -->
+<meta property='og:title' content='Interactive Shell IDE'>
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='Interactive Shell IDE'>
+
+<!--<meta property='og:site_name' content='https://www.interactiveshell.com/Interactive Shell'> -->
+<meta property='og:site_name' content='Interactive Shell'>
+
+<meta property='og:locale' content='https://www.interactiveshell.com/en_US'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content="https://www.interactiveshell.com/blog/Interactive-Shell-IDE-HTML-Builder"> 
+<!--<meta property="fb:app_id" content="1453876588406566" />
+<meta property="fb:pages" content="" /> -->
+
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "Interactive Shell",
+      "alternateName" : "InteractiveShell",
+      "url" : "https://www.interactiveshell.com/"
+    }
+  </script>
+
+    <title>Interactive Shell IDE | Interactive Shell</title>
+
+<!-- TrustBox script -->
+<!--<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> -->
+<!-- End TrustBox script -->
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="../ajax/libs/jquery/3.7.1/jquery.slim.js" integrity="sha512-docBEeq28CCaXCXN7cINkyQs0pRszdQsVBFWUd+pLNlEk3LDlSDDtN7i1H+nTB8tshJPQHS0yu0GW9YGFd/CRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- font awesome 5 -->
+<!--<link href="/assets/backend/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" /> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<!-- port -->
+
+    <!-- ==== css dependencies start ==== -->
+<link rel="stylesheet" href="../port/assets/css/style.css">
+<link rel="stylesheet" href="../v2/css/main2.css" type="text/css">
+    
+    <!-- AOS  -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- swiper  -->
+    <!--<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <!-- ICON  -->
+    <script src="../%40phosphor-icons/web%402.1.1/src/index.js"></script>
+
+<!-- port -->
+
+
+<link rel="stylesheet" type="text/css" href="../assets/default/css/interactive.css"> 
+<!-- <script src="/assets/backend/js/onDomChange.js"></script> -->
+<link rel="stylesheet" href="../assets/default/vendors/sweetalert2/dist/sweetalert2.min.css">
+<link rel="stylesheet" href="../assets/default/vendors/toast/jquery.toast.min.css"> 
+<!--<link rel="stylesheet" href="/assets/default/vendors/simplebar/simplebar.css"> 
+
+-->
+<link rel="stylesheet" href="../v2/css/reset.css" type="text/css">
+<link rel="stylesheet" href="../v2/css/bootstrap-grid.min.css" type="text/css">
+<!--<link rel="stylesheet" href="/v2/css/animations.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/perfect-scrollbar.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/magnific-popup.css" type="text/css">
+-->
+<link rel="stylesheet" href="../assets/default/css/app2.css">
+
+
+
+<style>
+ 
+.gradient-box {
+  cursor: pointer;
+  display: inline-block;
+width: 93%;
+height: 92%;
+
+color: #0D6EFD !important;
+  display: flex;
+text-align:center !important;
+  justify-content: center;
+  align-items: center;
+padding-left:20%;
+padding-right:20%;
+border-radius: 10px 10px 10px 10px !important;
+}
+
+.gradient-box-p {
+  cursor: pointer;
+  display: inline-block;
+width: 90%;
+height: 92%;
+
+color: #0D6EFD !important;
+  display: flex;
+text-align:center !important;
+  justify-content: center;
+  align-items: center;
+padding-left:20%;
+padding-right:20%;
+border-radius: 10px 10px 10px 10px !important;
+}
+
+
+
+.gradient-1 {
+  background-image: linear-gradient(to right top, #F0FAFF, #F0FAFF,#E6EFFF, #E6EFFF, #E6EFFF); 
+}
+
+.gradient-2 {
+  background-image: linear-gradient(to right top, #fdbe25, #fec928, #ffd42b, #ffdf31, #ffea37); 
+
+ /*z-index:-1;*/
+}
+
+
+</style>
+
+<style>
+.grad-1 {
+  background-image: radial-gradient(105% 384.93% at 83.3% -5%,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 100%),linear-gradient(93.34deg,#5056ED 2.75%,#812EF1 100%),linear-gradient(0deg,#FFFFFF,#FFFFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<style>
+
+/*------------------------------------
+	Preloader
+------------------------------------*/
+.preloader {
+  /*background-color: #ffffff;*/
+background-color: #131A25;
+  /*background-image: url("/loader.svg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
+}
+i.req {
+    color: #e41515;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+
+/*--- end of preloader ---*/
+/*----------------------------
+</style>
+
+
+<style>
+    /* Hide element on extra small devices */
+      @media (max-width: 576px) {
+        .melement {
+          display: none;
+        }
+      }
+
+.type {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  cursor:pointer;
+
+}
+
+.type-xl {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type-badge {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type-drive {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type2 {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background:  #FF5733 ;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+}
+
+
+.type3 {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background:   #2ecc71  ;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  cursor:pointer;
+
+}
+.appsumo-type {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  /*color: #ffffff;*/
+  /*background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;*/
+}
+
+
+/* Macbook Pro - DOES NOT WORK*/
+@media  only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.mbh   { display: none; }
+/*.mbp   { margin-top: -6%; }*/
+}
+
+
+</style>
+
+
+
+                  
+    
+<script src="../assets/backend/custom/js/codemirror.js"></script>
+<link href="../assets/backend/custom/css/codemirror.css" rel="stylesheet" type="text/css">
+<script src="../assets/frontend/default/custom/js/jquery.blockUI.js"></script> 
+<script src="../assets/backend/custom/js/autorefresh.js"></script> 
+
+
+    <style>
+        
+    </style>
+
+
+    </head>
+
+
+
+<body class="dark loaded" style="background-color: #131A25;">
+  <!-- don't remove this  -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewbox="0 0 11 15" fill="none" class="d-none">
+      <g clip-path="url(#clip0_3569_434)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.69145 8.43063L1.72801 5.49387L5.69145 2.54023V0L0 4.21303V6.75919L5.69145 10.9887V8.43063Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.72801 5.49387L5.69145 2.54023V0L0 4.21303V6.75919L1.72801 5.49387Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.86328 6.5702L8.82672 9.5065L4.86328 12.4606V15.0004L10.5552 10.7864V8.24163L4.86328 4.01172V6.5702Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.86328 6.5702L8.82672 9.5065L10.5552 10.7864V8.24163L4.86328 4.01172V6.5702Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.72466 2.00391C9.52091 2.00391 10.1657 2.64912 10.1657 3.44491C10.1657 4.24115 9.52091 4.88591 8.72466 4.88591C7.92841 4.88591 7.2832 4.2407 7.2832 3.44491C7.2832 2.64912 7.92841 2.00391 8.72466 2.00391Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.83013 12.9972C1.03388 12.9972 0.388672 12.352 0.388672 11.5562C0.388672 10.7604 1.03388 10.1152 1.82967 10.1152C2.62546 10.1152 3.27067 10.76 3.27067 11.5562C3.27067 12.3525 2.62592 12.9972 1.82967 12.9972H1.83013Z" fill="rgba(var(--p1))"></path>
+      </g>
+      <defs>
+        <clippath>
+          <rect width="10.5561" height="15" fill="white"></rect>
+        </clippath>
+      </defs>
+    </svg>
+
+<!--<img src="https://training.interactiveshell.com/setcookie?id=" style="display:none;" />-->
+
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+     
+<!-- Animated Background -->
+<!--<div class="lm-animated-bg" style="background-image: url(v2/img/main_bg.png);"></div> -->
+<!-- /Animated Background -->
+
+<!-- Loading animation -->
+<div class="preloader">
+   <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+</div>
+<!-- /Loading animation -->	
+
+    <!-- preloder  srart -->
+    <!--<div class="loader-wrapper" style="display:none;">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div> -->
+    <!-- preloder  end -->
+
+<!-- <div class="d-flex gap-6"> -->
+<div class="">
+
+      <div class="main-content w-100">
+        <!-- top header  -->
+        <div class="w-100 bgn1-color p-3 position-fixed z-3 top-0 d-lg-none d-flex align-items-center justify-content-between br-bottom-n5 box-shadow1">
+          <a href="../index.htm" class="side-icon bgn2-color brn4">
+         <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1">
+                    <i class="mood_icon ph-fill ph-house fs-six n11-color"></i>
+                  </button>
+                </div>
+          </a>
+
+                               <!--<a href="/login" class="side-icon p1-color bgn2-color brn4"> -->
+         <a href="../login.html" class="side-icon bgn2-color brn4">
+                <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1 ">
+                    <i class="mood_icon ph-fill ph-sign-in fs-six n11-color"></i>
+                  </button>
+                </div>
+              </a>
+                      
+         
+        </div>
+
+        <!-- bottom header  -->
+        <div class="w-100 bgn1-color p-3 position-fixed z-3 bottom-0 d-block d-lg-none br-top-n5 box-shadow1">
+          <div class="header-bottom-menu w-full">
+            <ul class="d-flex gap-1 align-items-center justify-content-between">
+              <li class="rounded-3 ">
+                <a href="../index.htm" class="d-flex align-items-center gap-2 n11-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-terminal" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Terminal</span></a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="../drive.html" class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                    <span class="fs-five d-flex align-items-center justify-content-center">
+                      <i class="ph-fill ph-code-block" style="font-size:28px !important;"></i>
+                    </span>
+                    <span class="d-none d-md-block ">IDE Drive</span>
+                  </div>
+                  <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3 d-none d-md-block">16</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="../pricing.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-shopping-bag" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Pricing</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="../training.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center"><i class="ph-fill ph-video " style="font-size:28px !important;"></i></span>
+                  <span class="d-none d-md-block">Training</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="../blog.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-article" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Blog</span>
+                </a>
+              </li>
+                          <li class="rounded-3 ">
+                <a href="../about.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-dog" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">About</span>
+                </a>
+              </li>
+                          <li class="rounded-3 ">
+                <a href="../contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center"><i class="ph-fill ph-envelope" style="font-size:28px !important;"></i></span>
+                  <span class="d-none d-md-block">Contact</span>
+                </a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+
+        <!-- color palettes btns -->
+      
+      
+        <div class="color-switcher  hidden " style="z-index:100 !important;">
+          <button class="switcher-btn">
+            <i class="ph ph-gear-six"></i>
+          </button>
+          <div class="pallates box-shadow2 brn4">
+            <div class="d-flex gap-2">
+            
+            <div class="d-flex align-items-center justify-content-between">
+                                <label class="cursor-pointer  small text-white" for="readLessonSwitch">Swipe to Reset&nbsp;</label>
+                                <div id="reset" class="custom-control custom-switch">
+                                    <input type="checkbox" name="read" class="custom-control-input" id="readLessonSwitch" checked="" data-course-id="2192" data-lesson-id="9446">
+                                    <label class="custom-control-label" for="readLessonSwitch"></label>
+                                </div>
+                            </div>
+          
+            
+     
+            </div>
+          </div>         
+                                            
+        
+        </div> 
+      
+
+
+		    <!-- sidebar start -->
+      <div class="side-menu" style="background-color: #1C2434 !important; ">
+        <!-- sidebar-btn  -->
+        <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
+          <i class="ph ph-x fs-two p1-color"></i>
+        </div>
+
+        <div class="d-flex">
+          <div class="side-menu-left" style=" ">
+            <div>
+              <div class="d-flex flex-column gap-8 justify-content-center align-items-center mt-6">
+                <a href="../index.htm" class="side-icon p1-color bgn2-color brn4">
+               <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1">
+                    <i class="mood_icon ph-fill ph-house fs-six n11-color"></i>
+                  </button>
+                </div>
+                </a>
+                <!--<a href="checkout.html" class="position-relative">
+                  <div class="side-icon bg1-color">
+                    <i class="ph ph-shopping-cart n11-color"></i>
+                  </div>
+                  <div class="cart-counter">
+                    <span class="n1-color">02</span>
+                  </div>
+                </a> -->
+              
+                            <a href="../login.html" class="side-icon p1-color bgn1-color brn4">
+                <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle ">
+                    <i class="mood_icon ph-fill ph-sign-in fs-six n11-color"></i>
+                  </button>
+                </div>
+              </a>
+                            
+              </div>
+            </div>
+          </div>
+          <div class="side-menu-right overflow-y-auto">
+            <div class="d-flex flex-column gap-6 justify-content-between pt-40 py-10 px-5 h-100">
+              <div class="">
+                <div class="sidebar-profile">
+                  <div class="position-relative">
+                  
+                                    
+                    <div class="profile-img1 d-flex justify-content-center overflow-hidden" onclick="location.href='/';" style="cursor:pointer;">
+                      <img src="./logox.png" alt="logo" class="">
+                    
+                  </div>
+                  <!--<span class="thumb">👋</span>-->
+                                      
+                  </div>
+
+                  <h4 class="n5-color fw-semibold fs-five mt-2 text-center">
+                    Interactive Shell
+                  </h4>
+                  <b class="n5-color fs-nine d-block text-center crc-grn">Devops Terminal & IDE </b>
+                  <div class="d-flex justify-content-center gap-2 align-items-center mt-3">
+                    <a href="https://www.facebook.com/interactivesh" class="social-icon p1-color">
+                      <i class="ph ph-facebook-logo"></i>
+                    </a>
+                    <!--<a href="javascript:void(0)" class="social-icon p1-color">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a> -->
+                    <a href="https://x.com/interactivesh" class="social-icon p1-color">
+                      <i class="ph ph-x-logo"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@InteractiveShell" class="social-icon p1-color">
+                      <i class="ph ph-youtube-logo"></i>
+                    </a>
+                  </div>
+                </div>
+              
+                    
+                                      
+                <div class="line-divider my-4 my-md-8"></div>
+
+                <div class="menu-list">
+                  <ul class="d-flex flex-column gap-3">
+                    <li class="rounded-3 ">
+                      <a href="../index.htm" class="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2"><i class="ph ph-terminal-window fs-six"></i> Terminal</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="../drive.html" class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2">
+                          <i class="ph ph-code-block fs-six"></i> IDE Drive
+                        </div>
+                                              <span class="n5-color bg2-color fs-ten px-1 pt-0 rounded-2 me-3 hidden" style="background-color:#FF4040 !important;font-weight:bold !important;">Pro</span>
+                                            </a>
+                    </li>
+                 
+                  
+                    <li class="rounded-3 ">
+                      <a href="../pricing.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-shopping-bag fs-six"></i> Pricing</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="../training.html" class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2">
+                          <i class="ph ph-video fs-six"></i> Training
+                        </div>
+                                              <span class="n5-color bg2-color fs-ten px-1 pt-0 rounded-2 me-3" style="background-color:#FF4040 !important;font-weight:bold !important;">New!</span>
+                                            </a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="../blog.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-article fs-six"></i> Blog</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="../about.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-dog fs-six"></i>About</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="../contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-envelope fs-six"></i>Contact</a>
+                    </li>
+                                     <li class="rounded-3  hidden">
+                      <a href="../login.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-arrow-square-right fs-six"></i>Login</a>
+                    </li>
+                                    
+                  </ul>
+                </div>
+              
+              
+       
+             
+              
+              </div>
+              <!--<a
+                href="contact.html"
+                class="primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
+              >
+                <i class="ph ph-paper-plane-tilt"></i>Hire Me
+              </a> -->
+      
+            
+             <div class="d-flex justify-content-center gap-2 align-items-center " onclick="location.href='https://shop.interactiveshell.com/';" style="cursor:pointer;">
+                <img src="../assets/default/img/btn_windows.png" alt="app" width="50%">   
+             
+             </div>
+            
+            <!--<p class="small text-white">© Interactive Shell 2025</p> -->
+            </div>
+          
+          
+          
+          </div>
+        </div>
+      </div>
+      <!-- sidebar end -->
+	<div class="" style="overflow: auto !important;
+max-height: 100vh !important;">
+	
+
+     
+
+ 
+ 
+          <!-- Arrows Nav -->
+          
+          <!--<div class="interactive-arrows-nav mbh ">
+            <div class="interactive-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="interactive-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+                    </div> -->
+          <!-- End Arrows Nav -->
+          
+
+
+
+          
+
+
+
+<section class="container">
+                <div class="section-content">
+
+              <article class="post text-gray">
+                <div class="post-content-legacy">
+
+                  <!-- Entry content -->
+                  <div class="entry-content  container ">
+                    <div class="row">
+                      <div class=" col-12 ">
+                        <div class="col-inner">
+
+                        <!--work-->
+                        
+
+                            <div class="post-show mt-30 ">
+
+                       
+                                <div class="container-legacy h-100" style="margin-top: 60px !important; ">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-12-legacy ">
+                    <div class="top-search-categories-form">
+                        <h1 class="text-white font-30 mb-15" style="color: #3BD671 !important;">Interactive Shell IDE</h1>
+                                  <div class="text-center">
+                         <span class="mt-10 mt-md-20 font-16 font-weight-500 text-white">
+                            <a href="categories/Tutorials.html" class="text-white ">Tutorials </a>
+                         on 8 November 2024
+                        </span>
+             </div>
+                </div>
+            </div>
+        </div>                
+                
+<input type="hidden" id="CENTOS_DOCKER_IMAGE" value="slurmctld">
+<input type="hidden" id="WINDOWS_DOCKER_IMAGE" value="mcr.microsoft.com/powershell">
+<input type="hidden" id="CENTOS8_DOCKER_IMAGE" value="systemd-centos8-container-latest123485">
+
+
+<input type="hidden" id="UBUNTU_DEFAULT_URL" value="https://terminal.scientificprogramming.io/ubuntu/">
+<input type="hidden" id="RHEL_DEFAULT_URL" value="https://terminal.scientificprogramming.io/rhel/">
+<input type="hidden" id="SUSE_DEFAULT_URL" value="https://terminal.scientificprogramming.io/suse/">
+<input type="hidden" id="CENTOS_DEFAULT_URL" value="https://terminal.scientificprogramming.io/centos/">
+<input type="hidden" id="WINDOWS_DEFAULT_URL" value="https://terminal.scientificprogramming.io/windows/">
+<input type="hidden" id="CENTOS8_DEFAULT_URL" value="https://terminal.scientificprogramming.io/centos8/">
+
+
+
+<input type="hidden" id="UBUNTU_URL" value="https://terminal.scientificprogramming.io:10000">
+<input type="hidden" id="RHEL_URL" value="https://terminal.scientificprogramming.io:10001">
+<input type="hidden" id="SUSE_URL" value="https://terminal.scientificprogramming.io:10002">
+<input type="hidden" id="CENTOS_URL" value="https://terminal.scientificprogramming.io:10003">
+<input type="hidden" id="WINDOWS_URL" value="https://terminal.scientificprogramming.io:10004">
+<input type="hidden" id="CENTOS8_URL" value="https://terminal.scientificprogramming.io:10005">
+
+
+
+
+
+<!-- course+-->
+<link rel="stylesheet" href="../assets/frontend/default/custom/css/theme-font.min.css">
+
+
+<link href="../assets/backend/css/icons.min.css" rel="stylesheet" type="text/css">
+
+<!-- IDE -->
+<script src="../assets/backend/custom/js/ide.js"></script>
+<link rel="stylesheet" href="../assets/backend/custom/css/dialog.css">
+<link rel="stylesheet" href="../assets/backend/custom/css/ide.css">
+
+
+<!-- Parts -->
+<link rel="stylesheet" href="../assets/backend/custom/css/parts-lesson.css">
+
+<!-- VUE -->
+ <!--<link rel="stylesheet" href="/assets/backend/custom/vendors/css/vendors.min.css">  -->
+
+
+
+<!-- chartjs -->
+
+
+<link rel="stylesheet" href="../assets/frontend/default/custom/css/icons.css">
+
+
+<link rel="stylesheet" href="../releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+
+<script>
+
+/**chart*/
+
+
+  function setupChartCard(cardID=null, part_content_code_type=null,part_content_code=null) {
+   
+       var cardID = cardID.replace(/[^\w\s]/gi, '\\$&'); 
+       var chartType = part_content_code_type;
+  //console.log( cardID);
+       //var ctx = document.getElementById('chartViewer-'+cardID).getContext('2d');
+  //var ctx = document.getElementById('chartViewer-Insert').getContext('2d');
+       var chartObj = {};
+       var chartObjValue = part_content_code;
+        //console.log(chartObjValue);
+       var chart=null;
+       _.assign(chartObj, JSON.parse(decode(chartObjValue)));
+       //chartObjValue = JSON.parse(decode('ew0KICAgICJ0eXBlIjogImJhciIsDQogICAgImRhdGEiOiB7DQogICAgICAibGFiZWxzIjogWyJBZnJpY2EiLCAiQXNpYSIsICJFdXJvcGUiLCAiTGF0aW4gQW1lcmljYSIsICJOb3J0aCBBbWVyaWNhIl0sDQogICAgICAiZGF0YXNldHMiOiBbDQogICAgICAgIHsNCiAgICAgICAgICAibGFiZWwiOiAiUG9wdWxhdGlvbiAobWlsbGlvbnMpIiwNCiAgICAgICAgICAiYmFja2dyb3VuZENvbG9yIjogWyIjM2U5NWNkIiwgIiM4ZTVlYTIiLCIjM2NiYTlmIiwiI2U4YzNiOSIsIiNjNDU4NTAiXSwNCiAgICAgICAgICAiZGF0YSI6IFsiMjQ3OCIsIjUyNjciLCI3MzQiLCI3ODQiLCI0MzMiXQ0KICAgICAgICB9DQogICAgICBdDQogICAgfSwNCiAgICAib3B0aW9ucyI6IHsNCiAgICAgICJsZWdlbmQiOiB7ICJkaXNwbGF5IjogZmFsc2UgfSwNCiAgICAgICJ0aXRsZSI6IHsNCiAgICAgICAgImRpc3BsYXkiOiB0cnVlLA0KICAgICAgICAidGV4dCI6ICJQcmVkaWN0ZWQgd29ybGQgcG9wdWxhdGlvbiAobWlsbGlvbnMpIGluIDIwNTAiDQogICAgICB9DQogICAgfQ0KfQ=='));
+  //_.assign(chartObj, chartObjValue );
+        //chart = new Chart(ctx, chartObj);
+        //chart = new Chart( $("#chartViewer-"+cardID), chartObj);
+  
+  var ctx = document.getElementById('chartViewer-chart').getContext('2d');
+  
+        //chart = new Chart( $("#chartViewer-chart"), chartObj);
+  chart = new Chart( ctx, chartObj);
+//  chartx.destroy();
+  //chartx = new Chart(ctxx, chartObj);
+  //
+   // chartObjValue = JSON.parse(decode('ew0KICAgICJ0eXBlIjogImJhciIsDQogICAgImRhdGEiOiB7DQogICAgICAibGFiZWxzIjogWyJBZnJpY2EiLCAiQXNpYSIsICJFdXJvcGUiLCAiTGF0aW4gQW1lcmljYSIsICJOb3J0aCBBbWVyaWNhIl0sDQogICAgICAiZGF0YXNldHMiOiBbDQogICAgICAgIHsNCiAgICAgICAgICAibGFiZWwiOiAiUG9wdWxhdGlvbiAobWlsbGlvbnMpIiwNCiAgICAgICAgICAiYmFja2dyb3VuZENvbG9yIjogWyIjM2U5NWNkIiwgIiM4ZTVlYTIiLCIjM2NiYTlmIiwiI2U4YzNiOSIsIiNjNDU4NTAiXSwNCiAgICAgICAgICAiZGF0YSI6IFsiMjQ3OCIsIjUyNjciLCI3MzQiLCI3ODQiLCI0MzMiXQ0KICAgICAgICB9DQogICAgICBdDQogICAgfSwNCiAgICAib3B0aW9ucyI6IHsNCiAgICAgICJsZWdlbmQiOiB7ICJkaXNwbGF5IjogZmFsc2UgfSwNCiAgICAgICJ0aXRsZSI6IHsNCiAgICAgICAgImRpc3BsYXkiOiB0cnVlLA0KICAgICAgICAidGV4dCI6ICJQcmVkaWN0ZWQgd29ybGQgcG9wdWxhdGlvbiAobWlsbGlvbnMpIGluIDIwNTAiDQogICAgICB9DQogICAgfQ0KfQ=='));
+      // _.assign(chartObj, chartObjValue);
+        //  console.log(chartObj);
+	  // chart = new Chart(ctx, chartObjValue);
+
+       
+   
+   } // chart
+
+/*chart**/
+
+
+/**judge0+*/
+
+//var BASE_URL = "https://compiler.scientificprogramming.io/";
+var BASE_URL = "https://compiler.scientificprogramming.io";
+
+      function setupPlaygroundCard(divID, part_content_code_type, part_content_code_mode, part_content_code, part_content_code_input = null) {
+   
+       var sourceEditorDiv = "sourceEditor-" + divID;
+          var inputEditorDiv = "inputEditor-" + divID;
+       var outputEditorDiv = "outputEditor-" + divID;
+    
+   var divID = divID.replace(/[^\w\s]/gi, '\\$&'); 
+   //console.log("after:"+divID);
+       
+   
+       var runBtn = "#runBtn-" + divID;
+       var copyBtn = "#copyBtn-" + divID;
+       var statusLine = "#statusLine-" + divID;
+       var inputLabel = "#inputLabel-" + divID;
+       //var inputSwitchDiv = "#inputSwitchDiv-" + divID;
+       var inputSwitch = "#inputSwitch-" + divID;
+       var inputSwitchDiv = "#inputSwitchDiv-" + divID;
+       var outputSwitchDiv = "#outputSwitchDiv-" + divID;
+       // console.log("Judge system initialised!");
+       var WAIT = "false";
+       var timeStart, timeEnd;
+   
+       //console.log(inputLabel);
+   
+       if (!part_content_code_input) {
+           $(inputLabel).attr('style', ' display:none');
+           $('#' + inputEditorDiv).removeClass('card-code-editor');
+           $('#' + inputEditorDiv).attr('style', ' display:none');
+           $(inputSwitchDiv).attr('style', ' display:none');
+       }
+   
+       var sourceEditor = CodeMirror(document.getElementById(sourceEditorDiv), {
+           //readOnly: true,
+       	   readOnly: "nocursor",
+           //readOnly: false,
+           lineWrapping: true,
+           viewportMargin: Infinity,
+           scrollbarStyle: "null",
+           lineNumbers: true,
+           indentUnit: 4,
+           indentWithTabs: true,
+           showCursorWhenSelecting: true,
+           matchBrackets: true,
+           autoCloseBrackets: true,
+           keyMap: "default",
+           autofocus: true,
+           autoRefresh: true,
+           theme: 'ubuntu',
+           extraKeys: {
+               "Tab": function(cm) {
+                   var spaces = Array(cm.getOption("indentUnit") + 1).join(" ");
+                   cm.replaceSelection(spaces);
+               }
+           }
+       });
+   
+     
+       if (part_content_code_input) {
+   
+           var inputEditor = CodeMirror(document.getElementById(inputEditorDiv), {
+           //readOnly: true,
+           readOnly: "nocursor",
+               //readOnly: false,
+               lineWrapping: true,
+               viewportMargin: Infinity,
+               scrollbarStyle: "null",
+               lineNumbers: false,
+               indentUnit: 4,
+               indentWithTabs: true,
+               showCursorWhenSelecting: true,
+               matchBrackets: true,
+               autoCloseBrackets: true,
+               autoRefresh: true,
+               mode: "plain"
+           });
+   
+           inputEditor.setSize(null, '100px');
+       }
+       //console.log(inputEditor);
+       //console.log(inputEditorDiv);
+       //
+        var inputEditorDiv = "inputEditor-" + divID;
+   
+       var outputEditor = CodeMirror(document.getElementById(outputEditorDiv), {
+       readOnly: "nocursor",    
+       lineWrapping: true,
+           viewportMargin: Infinity,
+           scrollbarStyle: "null",
+           lineNumbers: false,
+           indentUnit: 4,
+           indentWithTabs: true,
+           showCursorWhenSelecting: true,
+           matchBrackets: true,
+           autoCloseBrackets: true,
+         //  readOnly: true,
+           autoRefresh: true,
+           mode: "plain"
+       });
+   
+       outputEditor.setSize(null, '100px');
+   
+        var part_content_code_decoded = decode(part_content_code);
+   var lines = (part_content_code_decoded.match(/\n/g) || '').length + 1
+if (lines<3) {
+//console.log('l='+lines);
+    $(copyBtn).addClass('hidden');
+}
+   
+    const instance =  tippy(document.querySelector(copyBtn),{
+  theme: 'orange',
+      content: 'Copy me!',
+});
+   
+   
+       sourceEditor.setValue(part_content_code_decoded);
+   
+       if (part_content_code_input) {
+           //inputEditor.setValue(part_content_code_input);
+           inputEditor.setValue(decode(part_content_code_input));
+           $(inputSwitch).click(function() {
+               $(inputLabel).slideToggle("fast");
+           
+           var inputEditorDiv = "inputEditor-" + divID;
+           
+               $('#' + inputEditorDiv).slideToggle("fast");
+           });
+       }
+       sourceEditor.markClean();
+       sourceEditor.setOption("mode", part_content_code_mode);
+   
+       //console.log(sourceEditor);
+       //
+       $(copyBtn).click(function(e) {
+     //  console.log("clicked="+divID);
+       navigator.clipboard.writeText(part_content_code_decoded);
+       
+       
+       /*on click make all reset*/
+       tippy(document.querySelectorAll('.copy-code:not([id="'+copyBtn+'"])'),{
+  theme: 'orange',
+      content: 'Copy me!',
+       delay: 0,
+});
+       
+              instance.setProps({
+   duration: 0,
+  arrow: false,
+        theme: 'green',
+      content: 'Copied!',
+              delay: 0,
+});
+       instance.show();
+       function quickadd() {
+				$(copyBtn).addClass('animate').delay(300).queue(function(next){
+					$(copyBtn).removeClass('animate');
+					next();
+				});
+			} quickadd();
+       
+       });
+   
+       //console.log(sourceEditor);
+       //
+    if(part_content_code_type == "10003" || part_content_code_type == "10005"){
+    $(runBtn).click(function(e) {
+    //console.log("dff");
+    var selectedOS;
+    if(part_content_code_type == "10003"){
+    selectedOS = "centos";
+    }else if(part_content_code_type == "10005"){
+    selectedOS = "centos8";
+    }
+      var dockerImage;
+      var part_content_file_url = '';
+      var part_content_file;
+      var part_content_code = encode(part_content_code_decoded);
+      var arg;
+      
+   // console.log( selectedOS );
+      
+             if (selectedOS == "ubuntu"){
+               
+        		dockerImage="ubuntu:net-tools";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10000";
+               part_content_file = "https://terminal.scientificprogramming.io/ubuntu/";
+                
+   		     }else if(selectedOS == "rhel"){
+   		     dockerImage="registry.access.redhat.com/ubi8/ubi:net-tools";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10001";
+                 part_content_file = "https://terminal.scientificprogramming.io/rhel/";
+        		}else if (selectedOS == "suse"){
+        		dockerImage="opensuse/leap:net-tools";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10002";
+                part_content_file = "https://terminal.scientificprogramming.io/suse/";
+        		}else if (selectedOS == "centos"){
+        		dockerImage="slurmctld";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10003";
+                part_content_file = "https://terminal.scientificprogramming.io/centos/";
+        		}else if (selectedOS == "centos8"){
+        		dockerImage="systemd-centos8-container-latest123485";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10005";
+                part_content_file = "https://terminal.scientificprogramming.io/centos8/";
+        		}else if (selectedOS == "windows"){
+        		dockerImage="mcr.microsoft.com/powershell";
+               part_content_file_url = "https://terminal.scientificprogramming.io:10004";
+                part_content_file = "https://terminal.scientificprogramming.io/windows/";
+        		}
+          
+      //    console.log(dockerImage);
+       //   console.log(part_content_file_url);
+          
+          if (part_content_code && selectedOS == "centos"){
+          	arg = "?arg=" +  encode (dockerImage + " /bin/bash -c ") + "&arg=" + encode('. /etc/profile.d/pbs.sh;') + part_content_code;
+          	part_content_file_url = part_content_file_url  + arg;
+          }else if (part_content_code && selectedOS == "centos8"){
+          	arg = "?arg=" +  encode (dockerImage + " /bin/bash -c ") + "&arg=" + encode('. /etc/profile.d/pbs.sh;') + part_content_code;
+          	part_content_file_url = part_content_file_url  + arg;
+          }else if(part_content_code && selectedOS == "windows"){
+          arg = "?arg=" +  encode (dockerImage + " /usr/bin/pwsh -c ") + "&arg=" + part_content_code;
+          	part_content_file_url = part_content_file_url  + arg;
+          }
+          else{
+          arg = "?arg=" +  encode (dockerImage + " /bin/bash -c ") + "&arg=" + part_content_code;
+          	part_content_file_url = part_content_file_url  + arg;
+          }
+    //console.log(part_content_file_url);
+    
+        $(outputSwitchDiv).slideToggle("fast");
+		    $("#terminal-"+divID).css({display: "block"});
+        var $iframe = $('#live-terminal-terminal-' + divID);
+    if ($iframe.length) {
+    //console.log(part_content_file_url);
+        $iframe.attr('src',part_content_file_url);
+        return false;
+        
+    }
+    
+    });
+       }else{
+       $(runBtn).click(function(e) {
+           $(outputSwitchDiv).slideToggle("fast");
+   
+           if (sourceEditor.getValue().trim() == "") {
+               alert("Source code can't be empty.");
+               return;
+           } else {
+             //  $(runBtn).button("loading");
+   
+           }
+   
+           var sourceValue = encode(sourceEditor.getValue());
+           if (part_content_code_input) {
+               var inputValue = encode(inputEditor.getValue());
+               // console.log(part_content_code_input);
+   
+               // toggle setup show
+   
+           }
+     
+           var languageId = part_content_code_type;
+   
+           if (part_content_code_input) {
+               var data = {
+                   source_code: sourceValue,
+                   language_id: languageId,
+                   stdin: inputValue
+               };
+           } else {
+               var data = {
+                   source_code: sourceValue,
+                   language_id: languageId
+               };
+           }
+           //console.log(data);
+           //
+           $('.hidden-output1').fadeIn("fast");
+           $('.hidden-output2').fadeIn("fast");
+       
+           var block_ele = $(this).closest('.card').find(".hidden-output2");
+           var reloadActionOverlay;
+           var reloadActionOverlay = "#fff";
+           // Block Element
+           block_ele.block({
+               message: '<div class="fa-solid fa-rotate  icon-spin font-medium-2" style="color:#28b463;"></div>',
+              // timeout: 2000, //unblock after 2 seconds
+               overlayCSS: {
+                   backgroundColor: reloadActionOverlay,
+                   cursor: 'wait',
+               },
+               css: {
+                   border: 0,
+                   padding: 0,
+                   backgroundColor: 'none'
+               }
+           });
+   
+           timeStart = performance.now();
+           $.ajax({
+               url: BASE_URL + `/submissions?base64_encoded=true&wait=${WAIT}`,
+               type: "POST",
+               async: true,
+               contentType: "application/json",
+               data: JSON.stringify(data),
+               success: function(data, textStatus, jqXHR) {
+   
+                   setTimeout(fetchSubmission.bind(null, data.token, timeStart, statusLine, outputEditor, block_ele,outputEditorDiv), 10);
+   
+               },
+               error: function(jqXHR, textStatus, errorThrown) {
+                   outputEditor.setValue(JSON.stringify(jqXHR, null, 4));
+                   $(statusLine).html(`${jqXHR.statusText} (${jqXHR.status})`);
+               }
+   
+           });
+   
+           if (part_content_code_input) {
+               //   $('.card-input').slideToggle("fast");
+           }
+
+   
+       });
+   }
+   
+   } //plycard
+
+
+
+
+   function fetchSubmission(submission_token, timeStart, statusLine, outputEditor, block_ele) {
+       $.ajax({
+           url: BASE_URL + "/submissions/" + submission_token + "?base64_encoded=true",
+           type: "GET",
+           async: true,
+           success: function(data, textStatus, jqXHR) {
+               if (data.status.id <= 2) { // In Queue or Processing
+                   setTimeout(fetchSubmission.bind(null, submission_token, timeStart, statusLine, outputEditor,block_ele), 10);
+                   return;
+               }
+               //  console.log(data);
+               handleResult(data, timeStart, statusLine, outputEditor, block_ele);
+           },
+           //error: handleRunError
+       });
+   }
+   function handleResult(data, timeStart, statusLine, outputEditor, block_ele) {
+       timeEnd = performance.now();
+       // console.log("It took " + (timeEnd - timeStart) + " ms to get submission result.");
+   
+       var status = data.status;
+       var stdout = decode(data.stdout || "");
+       var stderr = decode(data.stderr || "");
+       var compile_output = decode(data.compile_output || "");
+       var message = decode(data.message || "");
+       var time = (data.time === null ? "-" : data.time + "s");
+       var memory = (data.memory === null ? "-" : data.memory + "KB");
+   
+       $(statusLine).html(`${status.description}, ${time}, ${memory}`);
+   
+       if (status.id == 6) {
+           stdout = compile_output;
+       } else if (status.id == 13) {
+           stdout = message;
+       } else if (status.id != 3 && stderr != "") { // If status is not "Accepted", merge stdout and stderr
+           stdout += (stdout == "" ? "" : "\n") + stderr;
+       }
+   
+       //outputEditor.setValue(stdout);
+        //    outputEditor.setValue(stdout);
+      var str=stdout;
+
+
+   str = str.split("(cycle/sec)").pop();
+   str = str.split("www.mathworks.com."+"\n ").pop();
+       //outputEditor.setValue(stdout);
+   block_ele.unblock(); 
+    outputEditor.setValue(str);
+   
+   }
+
+/**judge0**/
+
+ function overTerminalIframe(ID = null, os=null,os_default_url=null) {
+       var ID = ID.replace(/[^\w\s]/gi, '\\$&');
+       var terminalID = "#live-terminal-" + ID;
+       var selectID = "#selectOSBtn-"+ID;
+       var cardID = "#card-"  + ID;
+       var terminalStatusID = "#live-terminal-status-" + ID
+       var terminal_os = os;
+       var terminal_os_default_url = os_default_url;
+   
+   
+       //   console.log('iframe clicked' + terminalID);
+        $('.live-terminal-class').not(terminalID).attr('src', 'https://terminal.scientificprogramming.io/ubuntu/' );
+        $('.selectOSBtn-class').not(selectID).val("ubuntu").change();
+   
+   } 
+
+   function setupTerminal(divID, part_content_code, part_content_file_url = null) {
+       
+       var terminalEditor; 
+       var terminalEditorDiv = "terminalEditor-" + divID;
+   
+     var divID = divID.replace(/[^\w\s]/gi, '\\$&'); 
+   
+       var terminalRunBtn = "#terminalRunButton-" + divID;
+       var terminalResetBtn = "#terminalResetButton-" + divID;
+       var terminalReloadBtn = "#terminalReloadButton-" + divID;
+       var terminalHideBtn = "#terminalHideButton-" + divID;
+       var liveTerminalDiv = "#live-terminal-" + divID;
+   
+       terminalEditor = CodeMirror(document.getElementById(terminalEditorDiv), {
+           readOnly: true,
+           //readOnly: false,
+           lineWrapping: true,
+           viewportMargin: Infinity,
+           scrollbarStyle: "null",
+           lineNumbers: true,
+           indentUnit: 4,
+           indentWithTabs: true,
+           showCursorWhenSelecting: true,
+           matchBrackets: true,
+           autofocus: false,
+           autoCloseBrackets: true,
+           autoRefresh: true,
+           theme: 'ubuntu',
+           keyMap: "default",
+           extraKeys: {
+               "Tab": function(cm) {
+                   var spaces = Array(cm.getOption("indentUnit") + 1).join(" ");
+                   cm.replaceSelection(spaces);
+               }
+           }
+       });
+   
+       terminalEditor.setSize(null, '40px');
+       terminalEditor.markClean();
+   
+   
+    var $wrapper = $(terminalEditor.getWrapperElement());
+    $wrapper.addClass('CodeMirror-readonly'); // hides cursor
+   
+   
+       terminalEditor.on("beforeChange", function(instance, change) {
+           var newtext = change.text.join("").replace(/\n/g, ""); // remove ALL \n !
+           change.update(change.from, change.to, [newtext]);
+           return true;
+       });
+   
+   
+       terminalEditor.on("change", function(instance, change) {
+           $(".CodeMirror-hscrollbar").css('display', 'none');
+   
+       });
+   
+       // the following line fixes a bug I've encountered in CodeMirror 3.1
+       $(".CodeMirror-scroll").css('overflow', 'hidden');
+   
+   
+       if (part_content_code) {
+           terminalEditor.setValue(decode(part_content_code));
+         terminalEditor.markClean();
+   
+       } else {
+           terminalEditor.setValue('');
+         terminalEditor.markClean();
+           // $(liveTerminalDiv).attr('src', terminalURL);
+       }
+   
+       $(terminalRunBtn).click(function() {
+   
+       
+       
+       
+       
+          $terminalSrc = $(this).data("src");
+         // console.log($terminalSrc);
+   
+           $(liveTerminalDiv).attr('src', $terminalSrc);
+           terminalEditor.markClean();
+           $('#terminal-'+divID).slideToggle("fast");
+       });
+   
+   
+       $(terminalReloadBtn).click(function(e) {
+   
+           var $terminalSrc;
+           // var terminalSrc = part_content_file_url;
+           //console.log($terminalSrc);
+           terminalEditor.setValue('');
+           terminalEditor.markClean();
+           //$(liveTerminalDiv).attr('src', terminalURL);
+           $terminalSrc = $(this).data("src");
+           //console.log($terminalSrc);
+           $(liveTerminalDiv).attr('src', $terminalSrc);
+       });
+   
+          $(terminalHideBtn).click(function(e) {
+   		   $('#terminal-'+divID).slideToggle("fast");
+           
+       });
+   
+   
+   
+   
+   }
+   
+   function setupTerminalTopBar(ID = null, os=null,os_default_url=null) {
+       var ID = ID.replace(/[^\w\s]/gi, '\\$&');
+       var terminalID = "#live-terminal-" + ID;
+       var selectID = "#selectOSBtn-"+ID;
+       var cardID = "#card-"  + ID;
+       var terminalStatusID = "#live-terminal-status-" + ID
+       var terminal_os = os;
+       var terminal_os_default_url = os_default_url;
+   
+   
+   $(selectID).change(function(){
+   
+        selectedOS = $(this).children("option:selected").val();
+       // jQuery('#live-terminal-status-insert').replaceWith(jQuery('<span id = "live-terminal-status-insert" class="badge badge-pill badge-primary float-right">offline</span>'));
+          //$terminalSrc = ;
+     
+     if (selectedOS == "ubuntu"){
+     dockerImage="ubuntu:net-tools"
+     $(terminalID).attr('src', "https://terminal.scientificprogramming.io/ubuntu/");
+     }else if(selectedOS == "rhel"){
+     dockerImage="registry.access.redhat.com/ubi8/ubi:net-tools"
+     $(terminalID).attr('src', "https://terminal.scientificprogramming.io/rhel/");
+     }else if (selectedOS == "suse"){
+      dockerImage="opensuse/leap:net-tools"
+     $(terminalID).attr('src', "https://terminal.scientificprogramming.io/suse/");               
+     }else if (selectedOS == "centos8"){
+      dockerImage="systemd-centos8-container-latest123485"
+     $(terminalID).attr('src', "https://terminal.scientificprogramming.io/centos8/");               
+     }else if(selectedOS == "windows"){
+     dockerImage="mcr.microsoft.com/powershell"
+     $(terminalID).attr('src', "https://terminal.scientificprogramming.io/windows/");
+     }else
+     {
+      $(terminalID).attr('src', "");    
+     }
+   
+        //alert("You have selected the country - " + selectedOS);
+   
+    });
+   
+   }
+</script>
+
+
+
+<style>
+
+
+
+.copy-code {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	bottom: -2px;
+	right: 0;
+	/*background: #DD4814;*/
+	border-top-left-radius:     6px;
+    border-bottom-right-radius: 6px;
+	z-index: 10;
+	transition: 0.2s;
+cursor:pointer;
+}
+ .copy-code::after {
+	/*font-family: 'Font Awesome 5 Free';*/
+  /*font-weight: 600;*/
+	/*font-size: 18px;*/
+	/*content: "\f328";*/
+	/*color: #fff;*/
+content: url('../uilcopy.svg');
+vertical-align: -0.125em;
+/*vertical-align: -0.125em;*/
+color: #f7dc6f ;
+	/*position: absolute;*/
+	top: 3px;
+	left: 10px;
+right: 10px;
+}
+.copy-code-wrap:active .copy-code {
+	transform: translate(0,0) scale(0.9);
+}
+.animate {
+	transform: translate(0,0) scale(1.12);
+}
+
+.tooltip {
+	font-size: 15px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+</style>
+
+
+
+
+<style>
+      .CodeMirror {
+        border: 2px solid #eee;
+        height: auto;
+      font-size: .9em;
+     /* font-size:14px !important;*/
+       /*line-height: 12px !important;*/
+      }
+
+
+
+    </style>
+
+
+
+
+
+<style>
+.plyr__video-embed iframe {
+	top: -50%;
+	height: 200%;
+}
+
+.plyr__video-wrapper{
+ border:5px solid !important;
+  border-width: 1px !important;
+}
+</style>
+
+
+
+
+<style>
+
+
+
+#mysidebar,
+#mysidebar ul,
+#mysidebar ul li,
+#mysidebar ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+direction:rtl;  
+
+
+}
+
+
+
+#mysidebar ul li.header {
+  background: #222;
+  color: white;
+  font-size: 120%;
+  padding: 5px
+}
+
+#expander {
+  position: fixed;
+  top: 160px;
+  left: -31px;
+  transform: rotate(90deg);
+  transition: .2s background ease;
+background: #DA0B4E;
+  color: white;
+}
+
+#expander:hover {
+  background:#FF0B6D  ;
+  color: white;
+}
+
+#mysidebar,
+#expander {
+  z-index: 1029;
+}
+
+#unexpander > a {
+ /* background: lightgray !important;
+  color: black !important;*/
+}
+
+#unexpander > li > a {
+  /*background: lightgray !important;
+  color: black !important;*/
+}
+
+#mysidebar {
+  width: 250px;
+  color: #ffffff;
+  position: fixed;
+  left: -250px;
+  top: 120px;
+  z-index: 10000;
+  /*background: #222; */
+ overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media  screen and (max-width: 600px) {
+  #expander {
+    top: 160px
+  }
+  #mysidebar.expanded {
+    width: 100%;
+  }
+}
+
+#mysidebar ul ul {
+  display: none;
+}
+
+.align-right {
+  float: right;
+}
+
+#mysidebar > ul > li > a {
+  padding: 15px 20px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-top: 1px solid #000;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  text-overflow: ellipsis;
+  background: #444;
+  transition: .1s all;
+}
+
+#mysidebar > ul > li > a:hover {
+  color: #eeeeee;
+  background: dimgrey;
+}
+
+#mysidebar > ul > li.active > a,
+#mysidebar > ul > li.open > a {
+  background: #000;
+}
+
+#mysidebar > ul > li:last-child > a,
+#mysidebar > ul > li.last > a {
+  border-bottom: 1px solid #000;
+}
+
+</style>
+
+
+<style>
+.p-container-legacy {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.p-responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-js-responsive-container-legacy.vjs-hd {
+    padding-top: 56.25%;
+}
+.video-js-responsive-container-legacy.vjs-sd {
+    padding-top: 75%;
+}
+.video-js-responsive-container-legacy {
+    width: 100%;
+    position: relative;
+}
+.video-js-responsive-container-legacy .video-js {
+    height: 100% !important; 
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+</style>
+
+
+<script>
+localStorage.setItem('course_slug', "Interactive-Shell-IDE-HTML-Builder");
+localStorage.setItem('lesson_id', "107");
+
+
+
+</script>
+
+
+<link rel="stylesheet" href="../ajax/libs/plyr/3.7.3/plyr.min.css">
+<script src="../ajax/libs/plyr/3.7.3/plyr.min.js"></script>
+
+
+
+
+<script src="../gh/highlightjs/cdn-release%4011.4.0/build/highlight.min.js"></script>
+<link rel="stylesheet" href="../releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
+<style>
+
+
+/***/
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+background: #290E24;
+}
+code.hljs {
+    padding: 3px 5px;
+}
+.hljs {
+    background: #011627;
+    color: #d6deeb;
+}
+.hljs-keyword {
+    color: #c792ea;
+    /*font-style: italic;*/
+}
+.hljs-built_in {
+    color: #addb67;
+    /*font-style: italic;*/
+}
+.hljs-type {
+    color: #82aaff;
+}
+.hljs-literal {
+    color: #ff5874;
+}
+.hljs-number {
+    color: #f78c6c;
+}
+.hljs-regexp {
+    color: #5ca7e4;
+}
+.hljs-string {
+    color: #ecc48d;
+}
+.hljs-subst {
+    color: #d3423e;
+}
+.hljs-symbol {
+    color: #82aaff;
+}
+.hljs-class {
+    color: #ffcb8b;
+}
+.hljs-function {
+    color: #82aaff;
+}
+.hljs-title {
+    color: #dcdcaa;
+    font-style: italic;
+}
+.hljs-params {
+    color: #7fdbca;
+}
+.hljs-comment {
+    color: #66ffff;
+    /*font-style: italic;*/
+}
+.hljs-doctag {
+    color: #7fdbca;
+}
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+    color: #82aaff;
+}
+.hljs-meta .hljs-string {
+    color: #ecc48d;
+}
+.hljs-section {
+    color: #82b1ff;
+}
+.hljs-attr,
+.hljs-name,
+.hljs-tag {
+    color: #7fdbca;
+}
+.hljs-attribute {
+    color: #80cbc4;
+}
+.hljs-variable {
+    color: #addb67;
+}
+.hljs-bullet {
+    color: #d9f5dd;
+}
+.hljs-code {
+    color: #80cbc4;
+}
+.hljs-emphasis {
+    color: #c792ea;
+    /*font-style: italic;*/
+}
+.hljs-strong {
+    color: #addb67;
+    font-weight: 700;
+}
+.hljs-formula {
+    color: #c792ea;
+}
+.hljs-link {
+    color: #ff869a;
+}
+.hljs-quote {
+    color: #697098;
+    font-style: italic;
+}
+.hljs-selector-tag {
+    color: #ff6363;
+}
+.hljs-selector-id {
+    color: #fad430;
+}
+.hljs-selector-class {
+    color: #addb67;
+    /*font-style: italic;*/
+}
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #c792ea;
+    /*font-style: italic;*/
+}
+.hljs-template-tag {
+    color: #c792ea;
+}
+.hljs-template-variable {
+    color: #addb67;
+}
+.hljs-addition {
+    color: #addb67ff;
+    /*font-style: italic;*/
+}
+.hljs-deletion {
+    color: #ef535090;
+    /*font-style: italic;*/
+}
+
+
+/*pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+code.hljs {
+    padding: 3px 5px
+}
+
+.hljs {
+    color: #abb2bf;
+    background: #300A24
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #5c6370;
+    font-style: italic
+}
+
+.hljs-doctag,
+.hljs-formula,
+.hljs-keyword {
+    color: #c678dd
+}
+
+.hljs-deletion,
+.hljs-name,
+.hljs-section,
+.hljs-selector-tag,
+.hljs-subst {
+    color: #e06c75
+}
+
+.hljs-literal {
+    color: #56b6c2
+}
+
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
+    color: #98c379
+}
+
+.hljs-attr,
+.hljs-number,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+    color: #d19a66
+}
+
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-symbol,
+.hljs-title {
+    color: #61aeee
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+    color: #e6c07b
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-strong {
+    font-weight: 700
+}
+
+.hljs-link {
+    text-decoration: underline
+}*/
+</style>
+
+
+<script>
+hljs.highlightAll();
+</script>
+
+<script src="../assets/core/js/codebox.js"></script>
+
+<style>
+.code-content {
+	position: relative;
+
+}
+.code-content .type {
+	/*border-left: 1px solid #333359; */
+	/*border-bottom: 1px solid #333359; */
+	border-radius: 0px 5px 0px 5px;
+  padding: 0 10px 0 10px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #dd4814;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+font-size:12px !important;
+ text-transform:capitalize !important;
+}
+
+
+.copy-code-wrap {
+	position: relative;
+
+}
+
+.copy-code-wrap .copy-code {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	bottom: -2px;
+	right: 0;
+	/*background: #DD4814;*/
+	border-top-left-radius:     6px;
+    border-bottom-right-radius: 6px;
+	z-index: 10;
+	transition: 0.2s;
+}
+.copy-code-wrap .copy-code::after {
+	/*font-family: 'Font Awesome 5 Free';*/
+  /*font-weight: 600;*/
+	/*font-size: 18px;*/
+	/*content: "\f328";*/
+	/*color: #fff;*/
+content: url('../uilcopy.svg');
+vertical-align: -0.125em;
+/*vertical-align: -0.125em;*/
+color: #f7dc6f ;
+	/*position: absolute;*/
+	top: 3px;
+	left: 10px;
+right: 10px;
+}
+.copy-code-wrap .copy-code-wrap:active .copy-code {
+	transform: translate(0,0) scale(0.9);
+}
+.animate {
+	transform: translate(0,0) scale(1.05);
+}
+
+
+.hidden {
+    display: none;
+}
+</style>
+
+<style>
+.plyr__video-embed iframe {
+	top: -50%;
+	height: 200%;
+}
+</style>
+
+
+
+<style>
+
+.img-x {
+
+  padding-left: 10% !important;
+padding-right: 10% !important;
+margin-bottom:2% !important;
+ border-radius: 10%;
+
+}
+
+.table-x {
+
+  padding-left: 2% !important;
+padding-right: 2% !important;
+margin-bottom:2% !important;
+b
+}
+
+.embed-i {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    z-index:11;
+margin-bottom:2% !important;
+}
+
+.embed-i-tool {
+position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+padding:1%;
+border:1px solid #C5C5C5;
+ -moz-border-radius: 10px;  border-radius: 10px;
+}
+
+</style>
+
+
+
+
+<script>
+
+
+
+</script>
+
+<style>
+/*-------------------------
+moovie.css - HTML5 Media player made for movies
+Made by: Bruno Vieira
+--------------------------- */
+
+/* VARIABLES */
+
+:root {
+
+  /* Colors */
+  --moovie_main_color: #FDD395;
+  --moovie_bg_controls: #0D6EFD;
+  --moovie_bg_submenu: #f7f7f7;
+  --moovie_bg_cuetimer: #2b2b2b;
+  --moovie_submenu_options_fcolor: #515151;
+  --moovie_topic_submenu_fcolor: #797979 ;
+  --moovie_currenttime_color: white;
+  --moovie_caption_fcolor: white;
+  --moovie_cuetimer_fcolor: white;
+  /* Font Size */ 
+  --moovie_submenu_options_fsize: 10pt;
+  --moovie_topic_submenu_fsize: 9pt;
+  --moovie_currenttime_fsize: 11pt;
+  --moovie_cuetimer_fsize: 10pt;
+  /* Icons size */
+  --moovie_svgicons_width: 15px;
+  /* General Styles */
+  --moovie_padding_controls: 13px;
+}
+
+/* START CSS */
+
+video {
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  display: block;
+  outline: none!important;
+}
+
+.moovie_tooltip
+{
+  position: absolute;
+  margin-top: -66px;
+  background-color: var(--moovie_bg_cuetimer);
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  font-size: 10pt;
+  opacity:0;
+  pointer-events: none;
+  white-space: nowrap;
+  -o-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+  z-index: 4;
+}
+
+.player__button:hover .moovie_tooltip
+{
+  opacity:1;
+}
+
+.moovie_cevent {
+    position: absolute;
+    z-index: 999;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #1c1c1c;
+    border-radius: 4px;
+}
+
+.moovie_cevent:hover {
+    color:grey;
+}
+
+.top-left{
+  top: 49px;
+  left: 25px;
+}
+
+.top-center{
+  top: 49px; 
+  right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.top-right{
+  top: 49px;
+  right: 25px;
+}
+
+.bottom-left{
+  bottom: 73px;
+  left: 25px;
+}
+
+.bottom-center{
+  bottom: 73px; 
+  right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.bottom-right{
+  bottom: 73px;
+  right: 25px;
+}
+
+.moovie {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: Arial;
+  border-radius: 7px;
+  outline: none!important;
+}
+
+.loadingv {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: 5;
+}
+
+.loading {
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  font-style: italic;
+  bottom: -5px;
+  width: 100%;
+}
+
+.moovie_bg{
+  position: absolute;
+  left: -46px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: -webkit-repeating-linear-gradient( 145deg, #f8e9db 1px, #fff5ed 2px, #fff5ed 11px, #f8e9db 12px, #f8e9db 20px );
+  background: repeating-linear-gradient( -55deg, #1c1c1c 1px, #464646 2px, #464646 11px, #242424 12px, #222 20px );
+  -webkit-animation-name: moovie_stripes;
+  -webkit-animation-duration: .6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: moovie_stripes;
+  animation-duration: 0.6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.moovie_cuetime {
+  opacity: 0;
+  background-color: var(--moovie_bg_cuetimer);
+  position: absolute;
+  margin-top: -17px;
+  z-index: 9999;
+  margin-left: 30px;
+  font-size: var(--moovie_cuetimer_fsize);
+  padding: 1px 5px 1px 5px;
+  border-radius: 3px;
+  left: 0px;
+  transform: translate(14px, -3px);
+  color: var(--moovie_cuetimer_fcolor);
+
+  -o-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+}
+
+.moovie_cuetime_small {
+  top: -12px!important;
+  margin-left: -19px!important;
+  transform: translate(0px) !important;
+}
+
+.responsive_bar {
+  position: absolute!important;
+  width: 100%!important;
+  left: -11px!important;
+  top: -15px!important;
+}
+
+.labelformat {
+  position: absolute;
+  right: 22px;
+  background-color: #686868;
+  color: white;
+  border-radius: 4px;
+  margin-top: 1px;
+  font-size: 7pt;
+  letter-spacing: 1px;
+  font-weight: bold;
+  width: 37px;
+  height: 20px;
+  padding-left: 9px;
+  line-height: 20px;
+}
+
+.moovie_submenu {
+  position: absolute;
+  bottom: 11px;
+  right: 26px;
+  margin-bottom: 56px;
+  background-color: var(--moovie_bg_submenu);
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 0px #242424;
+  z-index: 5;
+}
+
+.moovie_submenu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 8px 0px 8px 0px;
+  text-align: left;
+}
+
+.moovie_captionspot {
+  color: var(--moovie_caption_fcolor);
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  bottom: 40px;
+  pointer-events: none;
+  text-align: center !important;
+}
+
+.moovie_caption {
+  width: 55%;
+  margin: 0 auto;
+  text-shadow: 1px 1px 1px black;
+  pointer-events: none;
+  z-index: 0;
+  transition: all 0.2s ease 0s;
+}
+
+.caption_size {
+  font-size: 17pt;
+}
+
+.moovie_submenu ul li {
+  padding: 10px 14px 10px 14px;
+  font-size: var(--moovie_submenu_options_fsize);
+  width: 170px;
+  margin: 0px 12px 0px 10px;
+  border-radius: 2px;
+  color: var(--moovie_submenu_options_fcolor);
+}
+
+.moovie_submenu ul li:hover {
+  background-color: var(--moovie_main_color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.moovie_submenu ul li:hover .labelformat {
+  background-color: white;
+  color: var(--moovie_main_color);
+}
+
+.option_submenu {
+  position: absolute;
+  right: 28px;
+  font-weight: bold;
+}
+
+.poster_layer {
+  outline: none!important;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.poster_layer:hover .poster_center {
+  opacity:1;
+}
+
+.poster_center {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  transform: translate(-1.5%, -66%);
+  top: 50%;
+  text-align: center;
+  /* opacity:0.8; */
+}
+
+.poster_button {
+  padding: 16px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.poster_button img {
+  filter: drop-shadow(2px 4px 6px #0D6EFD);
+  background: #0D6EFD;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.poster_button:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.player__button {
+  background: none;
+  line-height: 1;
+  color: white;
+  text-align: center;
+  outline: 0;
+  padding: 8px 11px 9px 11px;
+  background-color: transparent;
+  margin-right: 4px;
+  border: 0px;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.player__button:hover {
+  /* transition: all 0.2s ease;
+  background-color: var(--moovie_main_color); */
+  cursor: pointer;
+}
+
+.player__button img {
+  width: var(--moovie_svgicons_width);
+  position: relative;
+  top: 2px;
+  vertical-align: baseline;
+}
+
+.player_button_disabled {
+  cursor: default!important;
+  background-color: transparent!important;
+}
+
+.moovie_currentime {
+  color: var(--moovie_currenttime_color);
+  font-size: var(--moovie_currenttime_fsize);
+  padding-top: 10px;
+  width: 100%;
+}
+
+.player__button:focus {
+  border-color: #ffc600;
+  outline: none;
+}
+
+.player__slider {
+  width: 10px;
+  height: 30px;
+}
+
+.topic_submenu {
+  padding: 0px 0px 5px 0px !important;
+  border-bottom: 1px dashed #e1e1e1 !important;
+  width: auto !important;
+  color: var(--moovie_topic_submenu_fcolor)!important;
+  font-weight: bold !important;
+  background-color: transparent !important;
+  margin-bottom: 9px !important;
+  font-size: var(--moovie_topic_submenu_fsize)!important;
+}
+
+.moovie_controls {
+  box-sizing: border-box;
+  background-color: var(--moovie_bg_controls);
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: var(--moovie_padding_controls);
+  z-index: 3;
+  -o-transition: opacity .2s ease-in-out;
+  -ms-transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
+
+}
+
+.moovie_progress {
+  position: absolute;
+  display: flex;
+  flex-basis: 100%;
+  flex: 10;
+  height: 33px !important;
+  transition: height 0.3s;
+  background-color: rgba(55, 112, 168, 0);
+  cursor: pointer;
+  top: -15px;
+  margin-right: 0;
+  margin-left: 0;
+  overflow: hidden;
+  width: 100%;
+  left: 0;
+}
+
+.moovie_progress_sound {
+  position: relative;
+  display: flex;
+  flex-basis: 100%;
+  flex: 10;
+  height: 7px !important;
+  transition: height 0.3s;
+  background-color: rgba(233, 236, 239, 0.4);
+  cursor: pointer;
+  top: 15px;
+  margin-right: 11px;
+  margin-left: 10px;
+}
+
+.progress__filled {
+  width: 0%;
+  background: var(--moovie_main_color);
+  flex: 0;
+  flex-basis: 0%;
+  z-index: 2;
+}
+
+.progress__filled_buffered {
+  width: 12%;
+  background: #1d64ae;
+  position: absolute;
+  height: 12px;
+  z-index: 1;
+}
+
+.opacity_svg {
+  opacity: 0.4;
+}
+
+/* RANGE INPUT */
+
+input[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 100%;
+  /* margin: 0 5px; */
+  z-index: 3;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background-color: rgba(233, 236, 239, 0.4);
+  border-radius: 1.3px;
+  border: 0.2px solid rgba(1, 1, 1, 0);
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  background-color: rgba(198, 198, 198, 0.4);
+  border-radius: 1.3px;
+}
+
+input[type=range]::-webkit-range-thumb {
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  background: var(--moovie_main_color);
+  border: none;
+  cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  background: var(--moovie_main_color);
+  border: none;
+  cursor: pointer;
+}
+
+/* PROGRESS BAR */
+
+progress {
+  border-radius: 7px;
+  width: 100%;
+  height: 5px;
+  margin-left: -11.5%;
+  /* box-shadow: ; */
+  position: absolute;
+  margin-left: 0px;
+  top: 14px;
+  border: 0px;
+  z-index: 1;
+  background-color: #b32c2c00;
+}
+
+progress::-webkit-progress-bar {
+  background-color:transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color:white;
+  opacity:0.3
+}
+progress::-moz-progress-bar {
+  background-color:white;
+  opacity:0.3
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 13px;
+  width: 13px;
+  border-radius: 100%;
+  background: var(--moovie_main_color);
+  cursor: pointer;
+  margin-top: -4.3px;
+}
+
+/* LOADING SCREEN */
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--moovie_main_color);
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes  lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes  lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes  lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+@-webkit-keyframes moovie_stripes {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to { 
+    -webkit-transform: translateX(46px);
+  }
+}
+
+@keyframes  moovie_stripes {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(46px);
+  }
+}
+
+</style>
+
+
+
+
+
+
+
+   
+
+
+    <!-- media section -->
+
+
+
+    <!-- media section -->
+
+ <!--<video id="example-none" poster="" style="display:none;">
+  <source src="" type="video/mp4">
+  <track kind="captions" label="English" srclang="en" src="">
+  Your browser does not support the video tag.
+</video>-->
+
+
+    <!--<section class="wrapper mt-40"> -->
+    <section class="">
+      <div class="container-legacy  pt-8 ">
+        <div class="row gx-lg-8 gx-xl-12">
+          <div class="col-12-legacy">
+            <div class="blog single">
+              <div class="card p-0">
+              
+
+
+              
+                <div class="card-body  shadow-lg border border-gray300 rounded-sm p-10">
+                  <div class="classic-view">
+                    <article class="post">
+                      <div id="img-content" class="post-content-legacy">
+                      
+                      
+                                   
+   <div style="text-align:center">
+    <figure class="card-img-top "><img src="../blog-img/interactive-shell-ide.png" alt="image" style="  width: 100%;  height: auto; border-radius: 6px !important;"></figure> 
+  </div>
+ 
+ 
+                    
+                    </div>
+                     </article>
+                    <!-- /.post -->
+                  </div>
+             
+     
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.blog -->
+          </div>
+          <!-- /column -->
+  
+          <!-- /column .sidebar -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-legacy -->
+    </section>
+    <!-- end media section -->
+
+                                
+                                
+
+
+<!--
+
+-->
+
+                                
+    <section class="container-legacy mt-10 mt-md-10">
+        <div class="row">
+            <div class="col-12-legacy col-lg-12">
+                <!-- <div id=lesson_content class="post-show mt-30"> -->
+            
+            
+            
+            
+            <div id="lesson_content" class="post-show mt-30">
+
+
+                  
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+                
+                
+                
+                
+                
+                
+                
+
+            </div>
+        
+                        <!--work-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Entry content -->
+
+                </div>
+              </div></article>
+
+          </div>
+
+</section></div>
+      
+
+        <!-- footer section start -->
+        <!-- <section
+          class="container d-flex flex-wrap gap-3 gap-md-6 justify-content-center justify-content-sm-between align-items-center pb-4 pb-md-8 text-center mb-16 mb-lg-0"
+        >
+          <span class="fs-eight fw-medium n5-color order-sm-2"
+            >Designed by
+            <a
+              href="https://themeforest.net/user/uiaxis"
+              class="fs-eight fw-medium n5-color"
+              >UIAXIS</a
+            ></span
+          >
+          <span class="fs-eight fw-medium n5-color order-sm-1"
+            >Copyright © 2024
+            <a href="index.html" class="fs-eight fw-medium n5-color"
+              >Portfolify</a
+            >. All Rights Reserved.</span
+          >
+        </section> -->
+        <!-- footer section end -->
+      
+ </div>
+
+</div>
+
+
+<!-- port -->
+
+
+    <!-- script js  -->
+    <!--<script src="/port/assets/js/plugins/plugins.js"></script> -->
+    <script src="../port/assets/js/main.js"></script>
+    <!-- <script src="/port/assets/js/type-word.js"></script> -->
+    <!-- swiper js  -->
+    <script src="../npm/swiper%4011/swiper-bundle.min.js"></script> 
+    <!-- email js  -->
+    <!--<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script> -->
+    <!-- aos -->
+    <script src="../aos%403.0.0-beta.6/dist/aos.js"></script> 
+
+<!-- port -->
+
+<!-- Template JS File -->
+
+<script src="../assets/default/js/app.js"></script>
+<!--<script src="/assets/default/vendors/feather-icons/dist/feather.min.js"></script> -->
+<script src="../assets/default/vendors/moment.min.js"></script>
+<script src="../assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="../assets/default/vendors/toast/jquery.toast.min.js"></script>
+<!--<script type="text/javascript" src="/assets/default/vendors/simplebar/simplebar.min.js"></script> -->
+
+<!--<script src="/assets/default/js/parts/main.min.js"></script>  -->
+<!--<script src="/assets/default/vendors/swiper/swiper-bundle.min.js"></script> -->
+<!--<script src="/assets/default/vendors/owl-carousel2/owl.carousel.min.js"></script> -->
+<!--<script src="/assets/default/vendors/parallax/parallax.min.js"></script> -->
+<!--<script src="/assets/default/js/parts/home.min.js"></script> -->
+<!--<script src="dist/js/main.min.js"></script> -->
+
+<!--<script src="/v2/js/modernizr.custom.js"></script> -->
+<!--<script src="/v2/js/animating.js"></script>-->
+<!--<script src="/v2/js/imagesloaded.pkgd.min.js"></script>  -->
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script> -->
+<!--<script src='/v2/js/perfect-scrollbar.min.js'></script>-->
+<!--<script src='/v2/js/jquery.shuffle.min.js'></script>
+<script src='/v2/js/masonry.pkgd.min.js'></script> 
+    <script src='/v2/js/owl.carousel.min.js'></script>  -->
+<!--<script src="/v2/js/jquery.magnific-popup.min.js"></script> -->
+<!--<script src="/v2/js/validator.js"></script>
+<script src="/v2/js/main.js"></script> -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+
+  </body>
+
+
+
+<script>
+    var deleteAlertTitle = 'Are you sure?';
+    var deleteAlertHint = 'This action cannot be undone!';
+    var deleteAlertConfirm = 'Delete';
+    var deleteAlertCancel = 'Cancel';
+    var deleteAlertSuccess = 'Success';
+    var deleteAlertFail = 'Failed';
+    var deleteAlertFailHint = 'Error while deleting item!';
+    var deleteAlertSuccessHint = 'Item successfully deleted.';
+    var forbiddenRequestToastTitleLang = '&quot;FORBIDDEN&quot; Request';
+    var forbiddenRequestToastMsgLang = 'You not access to this content.';
+</script>
+
+
+
+<style>
+.shadow-lg {
+  box-shadow: 0 5px 10px 0 transparent !important;
+}
+.rounded-sm {
+  border-radius: 0rem !important;
+}
+.border-gray300 {
+  border-color: transparent;
+}
+.border {
+  border: 1px solid transparent !important;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  background-color: #1C2434 !important;
+}
+
+.rounded-sm{
+background-color:  #1C2434  !important; border-radius:8px ! important;
+ border-radius: .2rem !important;
+}
+</style>
+
+
+              
+       <script>
+        var webinarDemoLang = 'Course demo';
+        var replyLang = 'Reply';
+        var closeLang = 'Close';
+        var saveLang = 'Save';
+        var reportLang = 'Report';
+        var reportSuccessLang = 'Your report has been sent.';
+        var messageToReviewerLang = 'Message to reviewer';
+    </script>
+
+    <script src="../assets/default/js/parts/comment.min.js"></script>
+
+
+
+    <script>
+        var learningToggleLangSuccess = 'Your learning status successfully changed.';
+        var learningToggleLangError = 'Failed to change learning status.';
+    </script>
+
+ <!--<script src="/assets/core/js/moovie.js"> </script>   -->
+<script src="../npm/%40editorjs/editorjs%402.22.3/dist/editor.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/editorjs-parser@1/build/Parser.browser.min.js"></script> -->
+<script src="../assets/core/js/edjsParser.js"></script>
+
+
+<script>
+
+$( document ).ready(function() {
+unexpandMenu();
+
+
+
+
+const config = {
+  image: {
+    use: "figure",
+    // use figure or img tag for images (figcaption will be used for caption of figure)
+    // if you use figure, caption will be visible
+    imgClass: "img", // used class for img tags
+    figureClass: "fig-img", // used class for figure tags
+    figCapClass: "fig-cap", // used class for figcaption tags
+    path: "absolute",
+    // if absolute is passed, the url property which is the absolute path to the image will be used
+    // otherwise pass a relative path with the filename property in <> like so: '/img/<fileName>'
+  },
+  paragraph: {
+    pClass: "paragraph", // used class for paragraph tags
+  },
+  code: {
+    codeBlockClass: "code-block", // used class for code blocks
+  },
+  embed: {
+    useProvidedLength: false,
+    // set to true if you want the returned width and height of editorjs to be applied
+    // NOTE: sometimes source site overrides the lengths so it does not work 100%
+  },
+  quote: {
+    applyAlignment: false,
+    // if set to true blockquote element will have text-align css property set
+  },
+};
+
+const customParsers = {
+    customBlock: function(data, config) {
+        // parsing functionality
+        // the config arg is user provided config merged with default config
+    }
+/*,
+    image: function(data, config) {
+        return `<img src="${data.file.url}" alt="${data.caption}" >`;
+    }*/
+};
+
+const embedMarkup = {
+ /* youtube: `<iframe src="<%data.embed%>" width="<%data.width%>"><%data.caption%></iframe>`,*/
+};
+
+const parser = new edjsParser(config, customParsers, embedMarkup);
+const lesson_html = parser.parse({"time":"1727427793817","blocks":[{"id":"hqJEaBto5T","type":"paragraph","data":{"text":"The <b>Interactive IDE<\/b> workspace is an <b>AI-powered<\/b> collaborative cloud app designed to transform the way you code. With a user-friendly <b>drive-like<\/b> interface, it's the ultimate visual code studio for developers.And here's a summary of the features:","alignment":"left"}},{"id":"bz_ezhyIFS","type":"list","data":{"style":"unordered","items":["Access your workspace anywhere, anytime and on any device, all you need is a<b> browser<\/b>.","Create and edit files in <b>50+ programming languages<\/b>.","<b>Run <\/b>your codes in <b>real time<\/b>."]}},{"id":"wyFPomNKSC","type":"embed","data":{"service":"youtube","source":"https:\/\/www.youtube.com\/watch?v=bCQtK70ovmM","embed":"https:\/\/www.youtube.com\/embed\/bCQtK70ovmM","width":"580","height":"320","caption":null}},{"id":"PIuXgGxMQE","type":"paragraph","data":{"text":"<b>How to get started with the IDE?<\/b>&nbsp; Simply login, create a file with a recognized extension like \"html' or&nbsp; \"py\" in your workspace, and effortlessly trigger the IDE. You may change&nbsp; the coding language on the fly or add any libraries.","alignment":"left"}},{"id":"v2j121g_Qm","type":"paragraph","data":{"text":"The workspace equipped with a revolutionary<b> AI assistant<\/b> and is designed to <b>10x improve<\/b> your coding experience.","alignment":"left"}}],"version":"2.30.6"});
+//console.log(lesson_html);
+$( '#lesson_content' ).html( lesson_html );
+
+
+});
+
+
+</script>
+
+
+    
+<script>
+
+var expander = $('#expander');
+var expanderLeft = expander.attr('left');
+
+function expandMenu() {
+  $('#expander').fadeOut('150');
+  $('#mysidebar').animate({
+    left: 0
+  }, 200).addClass('expanded');
+}
+
+function unexpandMenu() {
+  $('#mysidebar').animate({
+    left: -250
+  }, 200).removeClass('expanded');
+  $('#expander').fadeIn('150');
+}
+
+
+
+$('#unexpander').on('click', function() {
+  unexpandMenu();
+});
+
+expander.on('click', function() {
+  expandMenu();
+});
+
+function realign() {
+  var topMenuHeight = $('nav').first().height();
+  $('#mysidebar').css('top', topMenuHeight + "px");
+}
+$(document).ready(function() {
+  $(window).resize(function() {
+    realign();
+  })
+});
+
+$(document).ready(function() {
+  var lastId,
+    topMenu = $("#top-menu"),
+    topMenuHeight = $('nav').first().height(),
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function() {
+      var item = $($(this).attr("href"));
+      if (item.length) {
+        return item;
+      }
+    });
+
+  // Bind click handler to menu items
+  // so we can get a fancy scroll animation
+  menuItems.click(function(e) {
+    var href = $(this).attr("href");
+    var offsetObj = $(href);
+    var offsetTop = offsetObj.offset().top;
+    var scrollTo = offsetTop - topMenuHeight;
+    $('html, body').stop().animate({
+      scrollTop: scrollTo
+    }, 500);
+    e.preventDefault();
+  });
+
+  // Bind to scroll
+
+  function spyIt() {
+    // Get container-legacy scroll position
+    var fromTop = $(this).scrollTop() + topMenuHeight;
+
+    // Get id of current scroll item
+    var cur = scrollItems.map(function() {
+      if ($(this).offset().top - 5 < fromTop) return this;
+    });
+    // Get the id of the current element
+    cur = cur[cur.length - 1];
+    var id = cur && cur.length ? cur[0].id : "";
+
+    if (lastId !== id) {
+      lastId = id;
+      // Set/remove active class
+      menuItems.parent().removeClass("active")
+        .end().filter("[href=#" + id + "]").parent().addClass("active");
+    }
+  }
+
+  $(window).on('scroll resize load', function() {
+    spyIt();
+  })
+});
+
+ $('html').click(function() {
+ //your stuf
+  //alert('clicked');
+  unexpandMenu();
+ });
+
+ $('#mysidebar').click(function(event){
+     event.stopPropagation();
+ });
+
+ $('#expander').click(function(event){
+     event.stopPropagation();
+ });
+
+
+
+
+$( document ).ready(function() {
+unexpandMenu();
+});
+
+
+
+     document.addEventListener("DOMContentLoaded", function () {
+
+     
+     /*const player = new Plyr('.pvid');*/
+     
+     const player = new Plyr('#player-one');
+     
+         (function() {
+        const players = Array.from(document.querySelectorAll('.pvid')).map(
+            p => new Plyr(p)
+        );
+        players.forEach(function(p){
+            p.on('play', event => {
+                const instance = event.detail.plyr;
+                console.log('Stop others players');
+                players.forEach(function(p){ if(p != instance) p.stop()});
+            })
+        });
+    })();
+     
+     
+     
+        });
+
+
+
+</script>
+
+
+
+    <script>
+        var learningToggleLangSuccess = 'Your learning status successfully changed.';
+        var learningToggleLangError = 'Failed to change learning status.';
+    
+
+    </script>
+
+    <script src="../assets/default/js/parts/text_lesson.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>-->
+<script src="../ajax/libs/jquery.blockUI/2.70/jquery.blockUI.js"></script>
+<script src="../assets/backend/custom/js/asciinema-player.js"></script> 
+
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdgaziur/EditorJS-LaTeX@latest/dist/editorjs-latex.bundle.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css"></link> -->
+
+        
+
+
+
+<script>
+    
+</script>
+
+<script>
+	//Loader	
+	$(function preloaderLoad() {
+        if($('.preloader').length){
+            $('.preloader').delay(200).fadeOut(300);
+        }
+        $(".preloader_disabler").on('click', function() {
+            $("#preloader").hide();
+        });
+    });
+
+$(document).ready(function(){
+//   feather.replace();
+
+});
+
+</script>
+
+<script>
+// lazy loader
+document.addEventListener('DOMContentLoaded', () => {
+  const config = {
+    rootMargin: '0px 0px 55% 0px',
+    threshold: 0,
+  };
+  
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const lazyImage = entry.target;
+        if (lazyImage.dataset.classSrc) {
+          lazyImage.classList.add(lazyImage.dataset.classSrc);
+        } else {
+          lazyImage.src = lazyImage.dataset.src;
+        }
+        lazyImage.classList.remove('lazy-img');
+        imgObserver.unobserve(lazyImage);
+      }
+    });
+  }, config);
+  const arr = document.querySelectorAll('[data-src], [data-class-src]');
+  arr.forEach((v) => {
+    imageObserver.observe(v);
+  });
+});
+
+</script>
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+$(document).ready(function () {
+
+jQuery(document).ready(function($){
+  $(document).on('click', '.fa-expand', function(){
+ //     $( this ).removeClass( "fa-expand" );
+ // 	  $( this ).addClass( "fa-compress" );
+  $( "#ico-xl" ).remove();
+  $( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-compress " style="color: #ffffff !important;"></i>');
+$( "#div-page-content" ).removeClass( "page-content" );
+  $( "#div-page-content" ).addClass( "page-content-xl" );
+  
+  });
+  
+  $(document).on('click', '.fa-compress', function(){
+	$( "#ico-xl" ).remove();
+  $( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-expand " style="color: #ffffff !important;"></i>');
+ $( "#div-page-content" ).removeClass( "page-content-xl" );
+  $( "#div-page-content" ).addClass( "page-content" );
+  });
+  
+  
+});
+
+/*
+  $( "#ico-xl" ).on( "click", function() {
+  $( this ).removeClass( "fa-expand" );
+  $( this ).addClass( "fa-compress" );
+  //$( "#ico-xl" ).remove();
+  //$( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-compress "></i>');
+  //$("#ico-xl").attr("class", "fa-solid fa-compress");
+  //$( "#ico-xl" ).removeClass( "fa-expand" );
+  //$( "#ico-xl" ).addClass( "fa-compress" );
+  $( "#div-page-content" ).removeClass( "page-content" );
+  $( "#div-page-content" ).addClass( "page-content-xl" );
+  //$("#icofull").attr("class", "fa-regular fa-window-maximize");
+// $( "#icofull" ).removeClass( "fa-window-restore" ); 
+//  $( "#icofull" ).remove();
+//  $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize "></i>');
+ // alert( "Handler for `click` called." );
+  
+   $( ".fa-compress" ).on( "click", function() {
+ $( this ).removeClass( "fa-compress" );
+  $( this ).addClass( "fa-expand" );
+  //$( "#ico-xl" ).remove();
+  //$( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-expand "></i>');
+  //$( "#ico-xl" ).removeClass( "fa-compress" );
+  //$( "#ico-xl" ).addClass( "fa-expand" );
+  $( "#div-page-content" ).removeClass( "page-content-xl" );
+  $( "#div-page-content" ).addClass( "page-content" );
+  //$("#icofull").attr("class", "fa-regular fa-window-maximize");
+// $( "#icofull" ).removeClass( "fa-window-restore" ); 
+//  $( "#icofull" ).remove();
+//  $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize "></i>');
+ // alert( "Handler for `click` called." );
+} );
+  
+} );*/
+
+
+  
+
+
+
+
+});
+</script>
+    
+<!-- Default Statcounter code for interactiveshell.com
+https://www.interactiveshell.com/ -->
+<script type="text/javascript">
+var sc_project=13037253; 
+var sc_invisible=1; 
+var sc_security="97732576"; 
+</script>
+<script type="text/javascript" src="../counter/counter.js" async=""></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="../13037253/0/97732576/1/index.htm" alt="Web Analytics Made Easy - Statcounter" referrerpolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+    <style>
+.buttons {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.action_btn {
+  display: inline-block;
+  width: calc(50% - 4px);
+  margin: 0 auto;
+}
+</style>
+
+<div class="cookie-security-dialog p-20 rounded-lg" style="background-color: #212f3d !important; z-index:9999 !important;">
+    <h3 class="font-14 font-weight-bold text-white">Your privacy matters</h3>
+    <p class="mt-5 text-white font-12">Cookies and similar technologies are used on our sites to personalise content and ads. You can find further details and change your personal settings below. By clicking OK, or by clicking any content on our sites, you agree to the use of these cookies and similar technologies.</p>
+
+    <div class="mt-10 d-flex flex-wrap align-items-center buttons">
+        <!--<button type="button" class="js-accept-all-cookies btn btn-primary btn-sm flex-grow-1 mr-0 mr-md-5">Accept all cookies</button> -->
+    <button type="button" class="js-accept-all-cookies btn btn-primary btn-sm flex-grow-1 mr-2 mr-md-5 action_btn">Accept All</button>
+        <button type="button" class="js-cookie-customize-settings btn btn-light btn-sm flex-grow-1 mt-10 mt-md-0 action_btn">Customize</button>
+    </div>
+</div>
+
+<div id="cookieSecurityModal" class="d-none">
+    <h3 class="section-title after-line font-20 text-dark-blue mb-10">GDPR</h3>
+
+    <p class="mt-10 cookie-security-modal-description"><p>When you visit any of our websites, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and manage your preferences. Please note, that blocking some types of cookies may impact your experience of the site and the services we are able to offer.</p>
+
+            <form class="js-cookie-form-customize-inputs mt-25">
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox c-not-allowed">
+                            <input type="checkbox" name="settings" value="strictly_necessary" class="custom-control-input" checked="&quot;checked&quot;" disabled="&quot;disabled&quot;" id="cookieModalItemdDRjfkGvQfFzQJpa_record">
+                            <label class="custom-control-label" for="cookieModalItemdDRjfkGvQfFzQJpa_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 c-not-allowed" for="cookieModalItemdDRjfkGvQfFzQJpa_record">Strictly Necessary</label>
+
+                                                    <input type="hidden" name="settings" value="strictly_necessary">
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies are necessary for our website to function properly and cannot be switched off in our systems. They are usually only set in response to actions made by you that amount to a request for services, such as setting your privacy preferences, logging in or filling in forms, or where they’re essential to providing you with a service you have requested. You cannot opt out of these cookies. You can set your browser to block or alert you about these cookies, but if you do, some parts of the site will not then work. These cookies do not store any personally identifiable information.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="performance_cookies" class="custom-control-input" id="cookieModalItemmOzJowgvTnWFlRzz_record">
+                            <label class="custom-control-label" for="cookieModalItemmOzJowgvTnWFlRzz_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemmOzJowgvTnWFlRzz_record">Performance Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site, which helps us optimize your experience. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not be able to use your data in this way.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="functional_cookies" class="custom-control-input" id="cookieModalItemXBMtdYaeSrqMicTH_record">
+                            <label class="custom-control-label" for="cookieModalItemXBMtdYaeSrqMicTH_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemXBMtdYaeSrqMicTH_record">Functional Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third-party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="targeting_cookies" class="custom-control-input" id="cookieModalItemXlLqzsvNpRqdcNWP_record">
+                            <label class="custom-control-label" for="cookieModalItemXlLqzsvNpRqdcNWP_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemXlLqzsvNpRqdcNWP_record">Targeting Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.</li>
+                    </ul>
+                </div>
+
+            
+        </form>
+    
+    <div class="d-flex flex-wrap align-items-center mt-20 pt-15 border-top">
+        <button type="button" class="js-store-customize-cookies d-inline-flex d-md-none btn btn-primary btn-sm">Confirm</button>
+        <button type="button" class="js-store-customize-cookies d-md-inline-flex btn btn-outline-primary btn-sm mx-15">Confirm my choices</button>
+
+        <button type="button" class="js-accept-all-cookies d-inline-flex d-md-none btn btn-outline-primary btn-sm mx-15">Accept all</button>
+        <button type="button" class="js-accept-all-cookies d-none d-md-inline-flex btn btn-outline-primary btn-sm mx-15">Accept all cookies</button>
+
+        <button type="button" class="btn-transparent close-swl ml-auto font-14 text-danger ">Cancel</button>
+    </div>
+</div>
+
+<script>
+    var oopsLang = 'Oops...';
+    var somethingWentWrongLang = 'Something went wrong...';
+</script>
+<script type="text/javascript" src="../assets/default/js/parts/cookie-security.min.js"></script>
+
+
+</html>
