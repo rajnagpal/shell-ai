@@ -1,0 +1,3358 @@
+﻿<style>
+/*body {
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#21e1ae), to(#3BD671));
+  background: linear-gradient(#21e1ae, #09aeea); */
+/*}*/
+
+@media (max-width: 1920px){
+   .hide_menu{
+       display: none;
+   }
+}
+
+@keyframes  animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #131a25;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+    left: 73%;
+    width: 108px;
+    height: 108px;
+    bottom: -108px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 30%;
+    width: 182px;
+    height: 182px;
+    bottom: -182px;
+    animation-delay: 1s;
+}
+.background li:nth-child(2) {
+    left: 21%;
+    width: 109px;
+    height: 109px;
+    bottom: -109px;
+    animation-delay: 10s;
+}
+.background li:nth-child(3) {
+    left: 71%;
+    width: 123px;
+    height: 123px;
+    bottom: -123px;
+    animation-delay: 14s;
+}
+.background li:nth-child(4) {
+    left: 10%;
+    width: 137px;
+    height: 137px;
+    bottom: -137px;
+    animation-delay: 12s;
+}
+.background li:nth-child(5) {
+    left: 34%;
+    width: 166px;
+    height: 166px;
+    bottom: -166px;
+    animation-delay: 23s;
+}
+.background li:nth-child(6) {
+    left: 7%;
+    width: 136px;
+    height: 136px;
+    bottom: -136px;
+    animation-delay: 12s;
+}
+.background li:nth-child(7) {
+    left: 26%;
+    width: 115px;
+    height: 115px;
+    bottom: -115px;
+    animation-delay: 19s;
+}
+.background li:nth-child(8) {
+    left: 88%;
+    width: 102px;
+    height: 102px;
+    bottom: -102px;
+    animation-delay: 29s;
+}
+.background li:nth-child(9) {
+    left: 68%;
+    width: 114px;
+    height: 114px;
+    bottom: -114px;
+    animation-delay: 45s;
+}
+</style>
+<!--<div class="lm-animated-bg" style="background-image: url(v2/img/main_bg.png);"></div> -->
+<ul class="background">
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <meta charset="utf-8">
+<!-- CSRF Token -->
+<meta name="csrf-token" content="DhNBa18S7CdoEzQqa6aCbDeotvvE7fYzdLcyZbKw">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name='robots' content="index, follow, all">
+
+    <meta name="description" content="Interactive Shell is a cloud-powered collaborative code development platform comes with access to Linux and Windows Powershell terminals for rapid development. 🙌 🎉">
+    <meta name="copyright" content="Interactive Shell">
+    <meta name="DC.title" content="Interactive Shell">
+    <meta name="keywords" content="interactive shell, shell, interactiveshell, online shell, ide, online ide, interactive shell, linux shell, ubuntu, docker, vm, rhel, suse, ps7, powershell, online bash shell, execute bash script online, online bash ide,online editor, online code editor, online ide, online compiler, online interpreter, run code online, learn programming online,            online debugger, programming in browser, online code runner, online code execution, debug online, debug C code online, debug C++ code online,            programming online, snippet, snippets, code snippet, code snippets, pastebin, execute code, programming in browser, run c online, run C++ online, run java online, run python online, run ruby online, run c# online, run rust online, run pascal online, run basic online">
+    <meta property="og:description" content="Interactive Shell is a cloud-powered collaborative code development platform comes with access to Linux and Windows Powershell terminals for rapid development. 🙌 🎉">
+    <meta name='twitter:description' content='Interactive Shell is a cloud-powered collaborative code development platform comes with access to Linux and Windows Powershell terminals for rapid development. 🙌 🎉'>
+
+<meta name="layoutmode" content="fitscreen/standard">
+<link rel="home" href="index.htm">
+
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#da0b4e">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="favicon1.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+
+<!-- Open Graph -->
+<meta property='og:title' content='Instant Access Web Terminals with IDE'>
+<meta name='twitter:card' content='summary'>
+<meta name='twitter:title' content='Instant Access Web Terminals with IDE'>
+
+<!--<meta property='og:site_name' content='https://www.interactiveshell.com/Interactive Shell'> -->
+<meta property='og:site_name' content='Interactive Shell'>
+<!-- <meta property='og:image' content='https://www.interactiveshell.com/favicon.png'> 
+<meta name='twitter:image' content='https://www.interactiveshell.com/favicon.png'>  -->
+<meta property='og:image' content="https://www.interactiveshell.com/public/in-social.png"> 
+<meta name='twitter:image' content="https://www.interactiveshell.com/public/in-social.png"> 
+
+<meta property='og:locale' content='https://www.interactiveshell.com/en_US'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content="https://www.interactiveshell.com"> 
+<!--<meta property="fb:app_id" content="1453876588406566" />
+<meta property="fb:pages" content="" /> -->
+
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "Interactive Shell",
+      "alternateName" : "InteractiveShell",
+      "url" : "https://www.interactiveshell.com/"
+    }
+  </script>
+
+    <title>Instant Access Web Terminals with IDE | Interactive Shell</title>
+
+<!-- TrustBox script -->
+<!--<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> -->
+<!-- End TrustBox script -->
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="ajax/libs/jquery/3.7.1/jquery.slim.js" integrity="sha512-docBEeq28CCaXCXN7cINkyQs0pRszdQsVBFWUd+pLNlEk3LDlSDDtN7i1H+nTB8tshJPQHS0yu0GW9YGFd/CRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- font awesome 5 -->
+<!--<link href="/assets/backend/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" /> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+<!-- port -->
+
+    <!-- ==== css dependencies start ==== -->
+<link rel="stylesheet" href="port/assets/css/style.css">
+<link rel="stylesheet" href="v2/css/main2.css" type="text/css">
+    
+    <!-- AOS  -->
+    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <!-- swiper  -->
+    <!--<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> -->
+    <!-- ICON  -->
+    <script src="%40phosphor-icons/web%402.1.1/src/index.js"></script>
+
+<!-- port -->
+
+
+<link rel="stylesheet" type="text/css" href="assets/default/css/interactive.css"> 
+<!-- <script src="/assets/backend/js/onDomChange.js"></script> -->
+<link rel="stylesheet" href="assets/default/vendors/sweetalert2/dist/sweetalert2.min.css">
+<link rel="stylesheet" href="assets/default/vendors/toast/jquery.toast.min.css"> 
+<!--<link rel="stylesheet" href="/assets/default/vendors/simplebar/simplebar.css"> 
+
+-->
+<link rel="stylesheet" href="v2/css/reset.css" type="text/css">
+<link rel="stylesheet" href="v2/css/bootstrap-grid.min.css" type="text/css">
+<!--<link rel="stylesheet" href="/v2/css/animations.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/perfect-scrollbar.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/owl.carousel.css" type="text/css">
+<link rel="stylesheet" href="/v2/css/magnific-popup.css" type="text/css">
+-->
+<link rel="stylesheet" href="assets/default/css/app2.css">
+
+
+
+<style>
+ 
+.gradient-box {
+  cursor: pointer;
+  display: inline-block;
+width: 93%;
+height: 92%;
+
+color: #0D6EFD !important;
+  display: flex;
+text-align:center !important;
+  justify-content: center;
+  align-items: center;
+padding-left:20%;
+padding-right:20%;
+border-radius: 10px 10px 10px 10px !important;
+}
+
+.gradient-box-p {
+  cursor: pointer;
+  display: inline-block;
+width: 90%;
+height: 92%;
+
+color: #0D6EFD !important;
+  display: flex;
+text-align:center !important;
+  justify-content: center;
+  align-items: center;
+padding-left:20%;
+padding-right:20%;
+border-radius: 10px 10px 10px 10px !important;
+}
+
+
+
+.gradient-1 {
+  background-image: linear-gradient(to right top, #F0FAFF, #F0FAFF,#E6EFFF, #E6EFFF, #E6EFFF); 
+}
+
+.gradient-2 {
+  background-image: linear-gradient(to right top, #fdbe25, #fec928, #ffd42b, #ffdf31, #ffea37); 
+
+ /*z-index:-1;*/
+}
+
+
+</style>
+
+<style>
+.grad-1 {
+  background-image: radial-gradient(105% 384.93% at 83.3% -5%,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 100%),linear-gradient(93.34deg,#5056ED 2.75%,#812EF1 100%),linear-gradient(0deg,#FFFFFF,#FFFFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
+
+<style>
+
+/*------------------------------------
+	Preloader
+------------------------------------*/
+.preloader {
+  /*background-color: #ffffff;*/
+background-color: #131A25;
+  /*background-image: url("/loader.svg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
+}
+i.req {
+    color: #e41515;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+
+/*--- end of preloader ---*/
+/*----------------------------
+</style>
+
+
+<style>
+    /* Hide element on extra small devices */
+      @media (max-width: 576px) {
+        .melement {
+          display: none;
+        }
+      }
+
+.type {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  cursor:pointer;
+
+}
+
+.type-xl {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type-badge {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type-drive {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  /*font-weight: bold;
+  color: #ffffff;
+  background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;*/
+  cursor:pointer;
+
+}
+
+.type2 {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background:  #FF5733 ;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+}
+
+
+.type3 {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  border-radius: 8px 0px 0px 8px !important;
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  color: #ffffff;
+  background:   #2ecc71  ;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  border-left: 2px solid #fff;
+  border-right: 0px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  cursor:pointer;
+
+}
+.appsumo-type {
+  /*border-left: 1px solid #333359;
+  border-bottom: 1px solid #333359;*/
+  /*border-radius: 8px 0px 0px 8px !important;*/
+  /*padding: 0 10px 0 10px;*/
+  font-weight: bold;
+  /*color: #ffffff;*/
+  /*background: #dd4814;*/
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 5;
+  /*font-size: 12px !important;
+  text-transform: capitalize !important;*/
+}
+
+
+/* Macbook Pro - DOES NOT WORK*/
+@media  only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.mbh   { display: none; }
+/*.mbp   { margin-top: -6%; }*/
+}
+
+
+</style>
+
+
+
+    
+
+<!-- Pixel Code for https://app.socialproofy.io/ -->
+<!--<script async src="https://app.socialproofy.io/pixel/2ckrgas0er71qurlk0mwl1wo8v3gtv61"></script> -->
+<!-- END Pixel Code -->
+
+
+    
+
+<!-- End TrustBox script -->
+
+
+  <!--  <link rel="stylesheet" type="text/css" href="/assets/site/css/vendors/Bootstrap/bootstrap.min.css">
+	<link href="/assets/site/css/plugins/navigation.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="/assets/site/css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/site/css/theme-font.min.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/site/css/main.css">
+
+<!--<link rel="stylesheet" href="dist/css/style.css">-->
+
+<link rel="stylesheet" href="assets/vendors/leaflet/leaflet.css">
+<style>
+grad-2 {
+  background-image: radial-gradient(105% 384.93% at 83.3% -5%,rgba(255,255,255,.5) 0%,rgba(255,255,255,0) 100%),linear-gradient(93.34deg,#5056ED 2.75%,#812EF1 100%),linear-gradient(0deg,#FFFFFF,#FFFFFF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad-2 {
+  color: #3BD671 !important;
+}
+
+.IMG {
+  border: 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 100%;
+}
+</style>
+<style>
+.hero {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.hero-paragraph {
+    margin-bottom: 32px;
+}
+.hero-browser {
+    position: relative;
+    margin-top: 40px;
+}
+.hero-browser-inner {
+    position: relative;
+}
+.hero-browser-inner svg {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+.bubble-1,
+.bubble-2,
+.bubble-3,
+.bubble-4 {
+    position: absolute;
+}
+.bubble-1 svg,
+.bubble-2 svg,
+.bubble-3 svg,
+.bubble-4 svg {
+    height: auto;
+}
+.bubble-1 {
+    top: -15px;
+    left: 70px;
+}
+.bubble-1 svg {
+    width: 34px;
+}
+.bubble-2 {
+    bottom: 0;
+    right: -30px;
+}
+.bubble-2 svg {
+    width: 78px;
+}
+.bubble-3 {
+    left: -40px;
+    bottom: -40px;
+}
+.bubble-3 svg {
+    width: 143px;
+}
+.bubble-4 {
+    top: -25px;
+    right: -54px;
+}
+.bubble-4 svg {
+    width: 104px;
+}
+@media (min-width: 641px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .hero-paragraph {
+        margin-bottom: 40px;
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+    .bubble-1 svg,
+    .bubble-2 svg,
+    .bubble-3 svg,
+    .bubble-4 svg {
+        width: auto;
+    }
+    .bubble-1 {
+        top: 85px;
+        left: -30px;
+    }
+    .bubble-2 {
+        bottom: -8px;
+        right: -75px;
+    }
+    .bubble-3 {
+        left: -140px;
+        bottom: -120px;
+    }
+    .bubble-4 {
+        top: -35px;
+        right: -110px;
+    }
+}
+.features {
+    position: relative;
+}
+.features::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 482px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwNSIgaGVpZ2h0PSI0ODIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPiAgICA8cGF0aCBkPSJNODQuMjEyIDQ4MUMzMy4xNTIgNDQ3LjQ3IDAgNDA3Ljg4MSAwIDM2Mi43NDMgMCAyMDQuNTA1IDQ3OC42NzQgMCA2MzYuODQ3IDBjMTU4LjE3NCAwIDMzLjQzNCAxNzIuNzQxIDMzLjQzNCAzMzAuOTggMCA1NS43ODIgNi42NDYgMTA3LjAzNSA4LjMyMyAxNTAuMDJIODQuMjEyeiIgZmlsbD0iI0Y2RjhGQSIvPiAgICA8cGF0aCBkPSJNMTEwNC44MTcgNDgxLjI0MmwtODYxLjQ4NS0uMTdDMjExLjM4MiA0NTMuMjc4IDE5MiA0MjIuMDEzIDE5MiAzODcuNTA0IDE5MiAyMjkuMjggNDc3Ljc5MSA0IDYzNS45NyA0IDc5NC4xNDcgNCAxMjA1IDE0OS4zNTggMTIwNSAzMDcuNTgxYzAgNTkuNDQ1LTQwLjgyMyAxMjAuNTQzLTEwMC4xODMgMTczLjY2MXoiIGZpbGwtb3BhY2l0eT0iLjUiIGZpbGw9IiNGRkYiLz4gIDwvZz48L3N2Zz4=);
+    background-size: 1205px 482px;
+    background-repeat: no-repeat;
+}
+.features-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.features-wrap:first-child {
+    margin-top: -8px;
+}
+.features-wrap:last-child {
+    margin-bottom: -8px;
+}
+.feature {
+    padding: 8px 12px;
+    width: 368px;
+    max-width: 344px;
+    flex-grow: 1;
+}
+.feature-inner {
+    height: 100%;
+}
+.feature-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+}
+.feature-icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 16px 48px #e3e7eb;
+    mix-blend-mode: multiply;
+}
+@supports (-ms-ime-align: auto) {
+    .feature-icon::before {
+        box-shadow: 0 16px 48px rgba(32, 43, 54, 0.12);
+    }
+}
+.feature-title {
+    margin-top: 20px;
+}
+@media (min-width: 641px) {
+    .features::before {
+        left: 55%;
+        width: 45%;
+    }
+    .features-wrap:first-child {
+        margin-top: -32px;
+    }
+    .features-wrap:last-child {
+        margin-bottom: -32px;
+    }
+    .feature {
+        padding: 32px 12px;
+    }
+    .feature-title {
+        margin-top: 16px;
+    }
+}
+.newsletter .section-inner {
+    padding-bottom: 64px;
+}
+.newsletter .section-paragraph {
+    margin-bottom: 32px;
+}
+.newsletter-form {
+    max-width: 475px;
+    margin: 0 auto;
+}
+@media (min-width: 641px) {
+    .newsletter .section-inner {
+        padding-bottom: 120px;
+    }
+    .newsletter .section-paragraph {
+        margin-bottom: 40px;
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+}
+.is-boxed {
+    background: #f6f8fa;
+}
+
+.sr .has-animations .is-revealing {
+    visibility: hidden;
+}
+</style>
+<style>
+
+
+      /* Hide element on extra small devices */
+      @media (max-width: 576px) {
+        .melement {
+          display: none;
+        }
+      }
+
+#video-popup-container {
+  display:none;
+  position: fixed;
+  z-index: 996;
+  width: 60%;
+  left: 50%;
+  margin-left: -30%;
+  top: 20%;
+  background-color: #fff;
+}
+
+#video-popup-close {
+  cursor: pointer;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  z-index: 998;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #000;
+  line-height: 25px;
+  color: #fff;
+}
+
+#video-popup-iframe-container {
+  position: absolute;
+  z-index: 997;
+  width: 100%;
+  padding-bottom: 56.25%;
+  border: 2px solid #000;
+  border-radius: 2px;
+  background-color: #000;
+}
+
+#video-popup-iframe {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #000;
+}
+
+#video-popup-overlay {
+  display: none;
+  position: fixed;
+  z-index: 995;
+  top: 0;
+  background-color: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+}
+
+#video-popup-close:hover {
+  color: #DE0023;
+}
+</style>
+
+                      <style>
+/*@import  url('css2');*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+.block-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.block-wrap > div {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-google, .btn-fb {
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+}
+.btn-google .google-content, .btn-google .fb-content, .btn-fb .google-content, .btn-fb .fb-content {
+  display: flex;
+  align-items: center;
+  /*width: 260px; */
+width: 220px;
+  height: 45px;
+}
+.btn-google .google-content .logo, .btn-google .fb-content .logo, .btn-fb .google-content .logo, .btn-fb .fb-content .logo {
+  padding: 15px;
+  height: 48px;
+}
+.btn-google .google-content svg, .btn-google .fb-content svg, .btn-fb .google-content svg, .btn-fb .fb-content svg {
+  width: 18px;
+  height: 18px;
+}
+.btn-google .google-content p, .btn-google .fb-content p, .btn-fb .google-content p, .btn-fb .fb-content p {
+  width: 100%;
+  line-height: 1;
+  letter-spacing: 0.21px;
+  text-align: center;
+  /*font-weight: 500;
+  font-family: "Roboto", sans-serif;*/
+font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.btn-google {
+  background: #FFF;
+}
+.btn-google:hover {
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+.btn-google:active {
+  background-color: #eee;
+}
+.btn-google .google-content p {
+  color: #757575;
+}
+
+.btn-fb {
+  padding-top: 1.5px;
+  background: #4267b2;
+  background-color: #3b5998;
+}
+.btn-fb:hover {
+  box-shadow: 0 0 3px 3px rgba(59, 89, 152, 0.3);
+}
+.btn-fb .fb-content p {
+  color: rgba(255, 255, 255, 0.87);
+}
+                      
+                        .buttons {
+width: 200px;
+margin: 0 auto;
+display: inline;}
+
+    .action_btn {
+width: 200px;
+margin: 0 auto;
+display: inline;}
+</style>
+
+<style>
+
+table tr {
+  box-shadow: inset 0 -1px 0 #fff;
+}
+table tr:nth-child(even) {
+  background: rgba(8, 136, 240, 0.05);
+}
+
+#tableEditor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+table {
+  border-collapse: separate;
+  line-height: 1.65;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4em;
+}
+
+tbody:hover td, tbody:hover td:after {
+  color: transparent;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+tbody:hover tr:hover td {
+  text-shadow: none;
+  cursor: pointer;
+  background: #d5d5e9;
+  color: #32373d;
+}
+tbody:hover tr:hover td.desc {
+  color: currentColor;
+}
+tbody:hover tr:hover td.no:after {
+  text-shadow: none;
+  color: #FF655D;
+}
+tbody:hover tr:hover td.yes:after {
+  text-shadow: none;
+  color: #68c249;
+}
+
+caption {
+  margin: 2em auto;
+  font-size: 2em;
+}
+
+th {
+  background: #4C81D3;
+  color: #ffffff;
+  padding: .875em 1em;
+  font-size: 1.125em;
+}
+
+td {
+  padding: .625em 1em;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.feature {
+  color: #0888F0;
+  background: #e6e6f2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.yes, .no {
+  font: 0/0 serif;
+  text-shadow: none;
+  color: transparent;
+}
+.yes:after, .yes:before, .no:after, .no:before {
+  font-size: 22px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  position: relative;
+}
+
+.yes:after {
+  content: "\f00c";
+  color: #88CF6F;
+}
+
+.no:after {
+  content: "\f00d";
+  color: #FF655D;
+}
+
+.desc {
+  font-size: 85%;
+  margin: .25em;
+}
+
+#tableEditor {
+  padding: 2em;
+  margin: 10vh 10vw;
+  background: #0888F0;
+}
+#tableEditor td {
+  width: 100%;
+}
+#tableEditor .features {
+  display: none;
+}
+
+
+
+</style>
+
+
+<style>
+
+/* class applies to select element itself, not a wrapper element */
+.select-css {
+float:right;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 30%;
+    max-width: 30%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient.
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+    font-weight:normal;
+}
+
+/* Support for rtl text, explicit support for Arabic and Hebrew */
+*[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css {
+    background-position: left .7em top 50%, 0 0;
+    padding: .6em .8em .5em 1.4em;
+}
+
+/* Disabled styles */
+.select-css:disabled, .select-css[aria-disabled=true] {
+    color: graytext;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22graytext%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+    border-color: #aaa;
+}
+
+
+.text-highlight {
+  font-style: normal;
+  border-radius: 6px;
+  text-shadow: 1px 1px 1px #fff;
+  background-image:
+    linear-gradient(-100deg,
+      rgba(255,250,150,0.25),
+      rgba(255,250,150,0.8) 100%,
+      rgba(255,250,150,0.5)
+    );
+}
+
+.text-highlight-blue {
+  font-style: normal;
+  border-radius: 8px;
+font-weight:bold;
+  background-image:
+    linear-gradient(-100deg,
+      rgba(255,250,150,0.25),
+      rgba(255,250,150,0.8) 100%,
+      rgba(255,250,150,0.5)
+    );
+}
+
+
+.block {
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lozad {
+   opacity: 0;
+   transition: opacity 1000ms ease 100ms;
+}
+
+.lozad[data-loaded] {
+   opacity: 1;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes  fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style>
+
+
+<style>
+.tippy-box[data-theme~='orange'] {
+  color:   #f4d03f;
+  font-weight:bold;
+  font-size:75%;
+}
+.tippy-box[data-theme~='green'] {
+  color:   #b2babb ;
+  font-weight:bold;
+  font-size:75%;
+}
+</style>
+
+<style>
+.share {
+        margin: 3rem 0;
+}
+
+.share p {
+        margin: 0 0 0.75rem;
+        font-weight: 700;
+        text-align: center;
+}
+
+.share ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        margin: -0.25rem;
+        padding: 0;
+}
+
+.share li {
+        flex: 0 0 auto;
+        margin: 0.25rem;
+}
+
+.share a,
+.share button {
+        display: block;
+        border: none;
+        padding: 0;
+        width: 2rem;
+        height: 2rem;
+        background: none;
+        cursor: pointer;
+}
+
+.share svg {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+}
+</style>
+
+<style>
+      .CodeMirror {
+        border: 1px solid #eee;
+        height: auto;
+      }
+    </style>
+
+<style>
+.popover
+{
+    z-index: 10;
+}
+.popover .popover-header
+{
+    color: #fff;
+    border: none;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+.popover.bs-popover-bottom .arrow:after
+{
+    border-bottom-color: #7367f0;
+}
+
+.icon-bg-circle
+{
+    padding: .5rem;
+
+    color: #fff;
+    border-radius: 50%;
+}
+
+.icon-left
+{
+    margin-right: .5rem;
+}
+
+.icon-right
+{
+    margin-right: .5rem;
+}
+
+.icon-spin
+{
+    display: inline-block;
+
+    -webkit-animation: spin 1s infinite linear;
+       -moz-animation: spin 1s infinite linear;
+         -o-animation: spin 1s infinite linear;
+            animation: spin 1s infinite linear;
+}
+
+.blockOverlay
+{
+    z-index: 1050 !important;
+}
+
+.blockElement,
+.blockPage
+{
+    z-index: 1051 !important;
+}
+
+@-moz-keyframes spin
+{
+    from
+    {
+        -moz-transform: rotate(0deg);
+    }
+    to
+    {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin
+{
+    from
+    {
+        -o-transform: rotate(0deg);
+           transform: rotate(0deg);
+    }
+    to
+    {
+        -o-transform: rotate(360deg);
+           transform: rotate(360deg);
+    }
+}
+
+@keyframes  spin
+{
+    from
+    {
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+.hidden
+{
+    display: none;
+    visibility: hidden;
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
+.round
+{
+    border-radius: 1.5rem;
+}
+
+.square
+{
+    border-radius: 0;
+}
+
+.icon-line-height
+{
+    line-height: 1.5rem !important;
+}
+
+.table-middle td
+{
+    vertical-align: middle;
+}
+
+.spinner
+{
+    display: inline-block;
+
+    -webkit-animation: spin 1s linear infinite;
+       -moz-animation: spin 1s linear infinite;
+         -o-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+}
+
+@keyframes  spin
+{
+    0%
+    {
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100%
+    {
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+
+
+</style>
+
+
+
+<style>
+.switch {
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  width: 56px;
+}
+
+.switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 3px;
+  content: "";
+  height: 24px;
+  left: 3px;
+  position: absolute;
+  transition: .4s;
+  width: 24px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+</style>
+
+
+<style>
+
+.myaccordion {
+  max-width: 500px;
+  /*margin: 0px auto;*/
+  margin: 0px;
+  box-shadow: 0 0 0px rgba(0,0,0,0.1);
+  border: 3px solid red;
+  border-color: coral;
+  border-radius:8px;
+  padding: 0;
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #EDEFF0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 12px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+ /* margin-top: 10px; */
+}
+</style>
+
+
+<style>
+table {
+ /* border: 1px #3E416D dashed; */
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom:15px;
+
+}
+
+th {
+ /* text-align: left; */
+}
+
+thead {
+  font-weight: bold;
+  color: #fff;
+  background:#3E416D;
+
+}
+
+ td, th {
+  padding: 1em .5em;
+    text-align: center;
+  vertical-align: middle;
+}
+
+ td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+/*
+a {
+  color: #3E416D;
+}
+*/
+ @media  all and (max-width: 768px) {
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  th {
+    text-align: right;
+  }
+
+  table {
+    position: relative;
+    padding-bottom: 0;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+  }
+
+  thead {
+    float: left;
+    white-space: nowrap;
+  }
+
+  tbody {
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  th {
+    border-bottom: 1px solid #3E416D;
+  }
+
+  td {
+    border-bottom: 1px solid #3E416D;
+  }
+
+
+  }
+
+</style>
+
+<style>
+.vcontainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.vresponsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
+
+<style>
+.reward-program-section {
+  border-radius: 30px;
+  background-color: #f7fafd;
+}
+.reward-program-section .reward-program-section-hero-card {
+  height: 350px;
+}
+.reward-program-section .reward-program-section-hero-card .reward-program-section-hero {
+  position: absolute;
+  height: 330px;
+  width: 90%;
+  left: 0px;
+  top: 10px;
+}
+@media (max-width: 991px) {
+  .reward-program-section .reward-program-section-hero-card {
+    height: auto;
+  }
+  .reward-program-section .reward-program-section-hero-card .reward-program-section-hero {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+  }
+}
+.reward-program-section .reward-program-section-dots {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  z-index: 1;
+  animation: hero-dot 5s linear 0s infinite alternate;
+}
+.reward-program-section .example-reward-card {
+  position: absolute;
+  bottom: 50px;
+  right: 15%;
+  z-index: 2;
+  animation-duration: 6s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: hero-bounce;
+}
+.reward-program-section .example-reward-card .example-reward-card-medal {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+@keyframes  hero-dot {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes  hero-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.become-instructor-packages .default-package-icon {
+  width: 176px;
+  min-width: 176px;
+  height: 143px;
+}
+.become-instructor-packages .default-package-icon img {
+  width: 100%;
+  height: 100%;
+}
+.become-instructor-packages .default-package-statistics-icon {
+  width: 32px;
+  height: 32px;
+}
+.become-instructor-packages .default-package-statistics-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+
+</style>
+<style>
+
+.instructors-swiper-container .instructors-card .instructors-card-avatar {
+  width: 135px;
+  height: 135px;
+}
+.instructors-swiper-container .swiper-slide {
+  margin-top: 33px;
+}
+.instructors-swiper-container .swiper-slide.swiper-slide-active {
+  margin-top: 0;
+}
+.instructors-swiper-container .swiper-slide.swiper-slide-active .instructors-card .instructors-card-avatar {
+  width: 200px;
+  height: 200px;
+}
+.instructors-swiper-container .swiper-slide.swiper-slide-active .instructors-card .instructors-card-avatar img {
+  opacity: 1;
+}
+.instructors-swiper-container .swiper-slide.swiper-slide-active .instructors-card .instructors-card-info {
+  display: block;
+}
+
+.find-instructor-section .find-instructor-section-hero {
+  max-width: 400px;
+  max-height: 460px;
+  border-radius: 40px 4px 40px 4px;
+  box-shadow: 0 30px 60px 0 rgba(1, 11, 60, 0.14);
+}
+.find-instructor-section .find-instructor-section-circle, .find-instructor-section .find-instructor-section-dots {
+  position: absolute;
+  z-index: -1;
+}
+.find-instructor-section .find-instructor-section-circle {
+  top: -50px;
+  right: 10%;
+}
+.find-instructor-section .find-instructor-section-dots {
+  bottom: -25px;
+  left: -30px;
+  animation: hero-dot 5s linear 0s infinite alternate;
+}
+.find-instructor-section .example-instructor-card {
+  position: absolute;
+  bottom: 50px;
+  right: -15px;
+  z-index: 2;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: hero-bounce;
+}
+.find-instructor-section .example-instructor-card .example-instructor-card-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .find-instructor-section .find-instructor-section-hero {
+    max-width: 250px;
+    max-height: 270px;
+  }
+  .find-instructor-section .example-instructor-card {
+    right: -5px;
+  }
+}
+</style>
+
+<script>
+   var terminalEditorInsert;
+   var terminalEditorUpdate;
+   var sourceEditorInsert;
+   var inputEditorInsert;
+   var outputEditorInsert;
+   var sourceEditorUpdate;
+   var inputEditorUpdate;
+   var outputEditorUpdate;
+   var chartEditorInsert;
+   var chartEditorUpdate;
+   var myTimer = false;
+   var trimLength = 50000;
+
+
+
+
+
+function hasWhiteSpaces(string) {
+    if (string.length == string.replace(" ", "").length) {return false}
+    return true
+}
+
+
+
+
+   function overTerminalIframe(ID = null, os=null,os_default_url=null) {
+       var ID = ID.replace(/[^\w\s]/gi, '\\$&');
+       var terminalID = "#live-terminal-" + ID;
+       var selectID = "#selectOSBtn-"+ID;
+       var cardID = "#card-"  + ID;
+       var terminalStatusID = "#live-terminal-status-" + ID
+       var terminal_os = os;
+       var terminal_os_default_url = os_default_url;
+
+
+       //   console.log('iframe clicked' + terminalID);
+        $('.live-terminal-class').not(terminalID).attr('src', 'https://terminal.interactiveshell.com/ubuntu/' );
+        $('.selectOSBtn-class').not(selectID).val("ubuntu").change();
+
+   }
+
+
+
+   function setupTerminalTopBar(ID = null, os=null,os_default_url=null) {
+       var ID = ID.replace(/[^\w\s]/gi, '\\$&');
+       var terminalID = "#live-terminal-" + ID;
+       var selectID = "#selectOSBtn-"+ID;
+       var cardID = "#card-"  + ID;
+       var terminalStatusID = "#live-terminal-status-" + ID
+       var terminal_os = os;
+       var terminal_os_default_url = os_default_url;
+
+   iselectedOS = $(selectID).children("option:selected").val();
+
+      if (iselectedOS == "ubuntu"){
+     dockerImage="ubuntu:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11000");
+     //$(terminalID).attr('src', "https://terminal.interactiveshell.com/ubuntu/");
+     }else if(iselectedOS == "rhel"){
+     dockerImage="registry.access.redhat.com/ubi8/ubi:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11001");
+     }else if (iselectedOS == "suse"){
+      dockerImage="opensuse/leap:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11002");
+     }else if(iselectedOS == "centos8"){
+     dockerImage="systemd-centos8"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:10005");
+     }else if(iselectedOS == "windows"){
+     dockerImage="mcr.microsoft.com/powershell"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11004");
+     }else
+     {
+      $(terminalID).attr('src', "");
+     }
+
+   $(selectID).change(function(){
+
+        selectedOS = $(this).children("option:selected").val();
+       // jQuery('#live-terminal-status-insert').replaceWith(jQuery('<span id = "live-terminal-status-insert" class="badge badge-pill badge-primary float-right">offline</span>'));
+          //$terminalSrc = ;
+
+     if (selectedOS == "ubuntu"){
+     dockerImage="ubuntu:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11000");
+     //$(terminalID).attr('src', "https://terminal.interactiveshell.com/ubuntu/");
+     }else if(selectedOS == "rhel"){
+     dockerImage="registry.access.redhat.com/ubi8/ubi:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11001");
+     }else if (selectedOS == "suse"){
+      dockerImage="opensuse/leap:net-tools"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11002");
+     }else if(selectedOS == "centos8"){
+     dockerImage="systemd-centos8"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:10005");
+     }else if(selectedOS == "windows"){
+     dockerImage="mcr.microsoft.com/powershell"
+     $(terminalID).attr('src', "https://terminal.interactiveshell.com:11004");
+     }else
+     {
+      $(terminalID).attr('src', "");
+     }
+
+        //alert("You have selected the country - " + selectedOS);
+
+    });
+
+
+
+
+   }
+
+</script>
+
+
+
+<style>  
+hr { background-color: #5E5E5E; height: 1px; border: 0; }
+
+mark {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='42' preserveAspectRatio='none' viewBox='0 0 480 42'%3E%3Cpath fill='%23FFE200' fill-opacity='.75' d='m.7884025 41.3449275c15.8171024-1.6206809 71.8777185-.9529412 87.8950374-1.5331327 16.0173191-.5801915 83.3901661-.745318 100.1082431-.667414 16.718076.0779039 83.089842-.0805484 99.607702.4720956s171.593663-4.1777204 188.411848-.5026041c3.203464.64141 4.604979-37.03709852 1.301407-37.67784118-16.217535-3.4897587-170.292256 1.04456951-186.710008.30189599s-84.391249-.1001373-101.509758.0139905c-17.11851.1141278-84.191033.7506573-101.2094341 1.7162471-17.0184014.9655898-47.6903594-.51449033-88.09525389.58732435-.90097419.38473091-.7007577 37.29511244.20021649 37.28943844z'/%3E%3C/svg%3E")
+      bottom center/97% 78% no-repeat,
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='479' height='47' preserveAspectRatio='none' viewBox='0 0 479 47'%3E%3Cpath fill='%23FFE200' fill-opacity='.3' d='m478.156709 8.7824162c-15.838938 1.2871448-71.877674-.56274795-87.900678-.3203145-16.023003.24243345-83.384536-1.01313476-100.097964-1.44357365-16.713429-.43043889-83.073982-1.67157136-99.579885-2.57252834-16.505903-.90095697-171.7612979-2.11020331-188.38083741-3.47061103-1.44382456 9.18867382-1.72962966 27.64863472-1.88448384 37.65056312 49.37498245 2.5658616 109.46343725.852584 186.67624025 3.6352676s84.372323 1.8796999 101.489075 2.126551 84.185321 1.0246833 101.215168.4179614 47.672574 1.5201394 88.086209 1.2703448c.906745-.365732 1.278032-37.28033554.377156-37.2936604z'/%3E%3C/svg%3E")
+      top left/96% 100% no-repeat;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  color:  #000;
+}
+
+.quote q:before {
+  content: "“";
+}
+
+.quote q:after {
+  content: "”";
+}
+
+@media (min-width: 48em) and (hover: hover) and (pointer: fine) {
+  .quote {
+    margin: 0.35em;
+    padding: 0.5em 0.8em;
+  }
+}
+
+.quote {
+  background: #fff;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 0 2px rgb(242, 234, 232);
+  display: flex;
+}
+.swiper-pagination-bullet{
+display:none !important;
+}
+</style>
+   
+
+
+ 
+
+              
+    
+
+              
+
+    <style>
+        
+    </style>
+
+
+    </head>
+
+
+
+<body class="dark loaded" style="background-color: #131A25;">
+  <!-- don't remove this  -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewbox="0 0 11 15" fill="none" class="d-none">
+      <g clip-path="url(#clip0_3569_434)">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.69145 8.43063L1.72801 5.49387L5.69145 2.54023V0L0 4.21303V6.75919L5.69145 10.9887V8.43063Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.72801 5.49387L5.69145 2.54023V0L0 4.21303V6.75919L1.72801 5.49387Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.86328 6.5702L8.82672 9.5065L4.86328 12.4606V15.0004L10.5552 10.7864V8.24163L4.86328 4.01172V6.5702Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.86328 6.5702L8.82672 9.5065L10.5552 10.7864V8.24163L4.86328 4.01172V6.5702Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.72466 2.00391C9.52091 2.00391 10.1657 2.64912 10.1657 3.44491C10.1657 4.24115 9.52091 4.88591 8.72466 4.88591C7.92841 4.88591 7.2832 4.2407 7.2832 3.44491C7.2832 2.64912 7.92841 2.00391 8.72466 2.00391Z" fill="rgba(var(--p1))"></path>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.83013 12.9972C1.03388 12.9972 0.388672 12.352 0.388672 11.5562C0.388672 10.7604 1.03388 10.1152 1.82967 10.1152C2.62546 10.1152 3.27067 10.76 3.27067 11.5562C3.27067 12.3525 2.62592 12.9972 1.82967 12.9972H1.83013Z" fill="rgba(var(--p1))"></path>
+      </g>
+      <defs>
+        <clippath>
+          <rect width="10.5561" height="15" fill="white"></rect>
+        </clippath>
+      </defs>
+    </svg>
+
+<!--<img src="https://training.interactiveshell.com/setcookie?id=" style="display:none;" />-->
+
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+     
+<!-- Animated Background -->
+<!--<div class="lm-animated-bg" style="background-image: url(v2/img/main_bg.png);"></div> -->
+<!-- /Animated Background -->
+
+<!-- Loading animation -->
+<div class="preloader">
+   <div class="preloader-animation">
+      <div class="preloader-spinner">
+      </div>
+    </div>
+</div>
+<!-- /Loading animation -->	
+
+    <!-- preloder  srart -->
+    <!--<div class="loader-wrapper" style="display:none;">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div> -->
+    <!-- preloder  end -->
+
+<!-- <div class="d-flex gap-6"> -->
+<div class="">
+
+      <div class="main-content w-100">
+        <!-- top header  -->
+        <div class="w-100 bgn1-color p-3 position-fixed z-3 top-0 d-lg-none d-flex align-items-center justify-content-between br-bottom-n5 box-shadow1">
+          <a href="index.htm" class="side-icon bgn2-color brn4">
+         <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1">
+                    <i class="mood_icon ph-fill ph-house fs-six n11-color"></i>
+                  </button>
+                </div>
+          </a>
+
+                               <!--<a href="/login" class="side-icon p1-color bgn2-color brn4"> -->
+         <a href="login.html" class="side-icon bgn2-color brn4">
+                <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1 ">
+                    <i class="mood_icon ph-fill ph-sign-in fs-six n11-color"></i>
+                  </button>
+                </div>
+              </a>
+                      
+         
+        </div>
+
+        <!-- bottom header  -->
+        <div class="w-100 bgn1-color p-3 position-fixed z-3 bottom-0 d-block d-lg-none br-top-n5 box-shadow1">
+          <div class="header-bottom-menu w-full">
+            <ul class="d-flex gap-1 align-items-center justify-content-between">
+              <li class="rounded-3  bg1-color ">
+                <a href="index.htm" class="d-flex align-items-center gap-2 n11-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-terminal" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Terminal</span></a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="drive.html" class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                    <span class="fs-five d-flex align-items-center justify-content-center">
+                      <i class="ph-fill ph-code-block" style="font-size:28px !important;"></i>
+                    </span>
+                    <span class="d-none d-md-block ">IDE Drive</span>
+                  </div>
+                  <span class="n5-color bg2-color fs-ten px-1 pt-1 rounded-2 me-3 d-none d-md-block">16</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="pricing.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-shopping-bag" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Pricing</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="training.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center"><i class="ph-fill ph-video " style="font-size:28px !important;"></i></span>
+                  <span class="d-none d-md-block">Training</span>
+                </a>
+              </li>
+              <li class="rounded-3 ">
+                <a href="blog.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-article" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">Blog</span>
+                </a>
+              </li>
+                          <li class="rounded-3 ">
+                <a href="about.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center">
+                    <i class="ph-fill ph-dog" style="font-size:28px !important;"></i>
+                  </span>
+                  <span class="d-none d-md-block">About</span>
+                </a>
+              </li>
+                          <li class="rounded-3 ">
+                <a href="contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight p-2">
+                  <span class="fs-five d-flex align-items-center justify-content-center"><i class="ph-fill ph-envelope" style="font-size:28px !important;"></i></span>
+                  <span class="d-none d-md-block">Contact</span>
+                </a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+
+        <!-- color palettes btns -->
+      
+      
+        <div class="color-switcher " style="z-index:100 !important;">
+          <button class="switcher-btn">
+            <i class="ph ph-gear-six"></i>
+          </button>
+          <div class="pallates box-shadow2 brn4">
+            <div class="d-flex gap-2">
+            
+            <div class="d-flex align-items-center justify-content-between">
+                                <label class="cursor-pointer  small text-white" for="readLessonSwitch">Swipe to Reset&nbsp;</label>
+                                <div id="reset" class="custom-control custom-switch">
+                                    <input type="checkbox" name="read" class="custom-control-input" id="readLessonSwitch" checked="" data-course-id="2192" data-lesson-id="9446">
+                                    <label class="custom-control-label" for="readLessonSwitch"></label>
+                                </div>
+                            </div>
+          
+            
+     
+            </div>
+          </div>         
+                                            
+        
+        </div> 
+      
+
+
+		    <!-- sidebar start -->
+      <div class="side-menu" style="background-color: #1C2434 !important; ">
+        <!-- sidebar-btn  -->
+        <div class="sidebar-btn close-btn cursor-pointer d-block d-lg-none">
+          <i class="ph ph-x fs-two p1-color"></i>
+        </div>
+
+        <div class="d-flex">
+          <div class="side-menu-left" style=" ">
+            <div>
+              <div class="d-flex flex-column gap-8 justify-content-center align-items-center mt-6">
+                <a href="index.htm" class="side-icon p1-color bgn2-color brn4">
+               <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle1">
+                    <i class="mood_icon ph-fill ph-house fs-six n11-color"></i>
+                  </button>
+                </div>
+                </a>
+                <!--<a href="checkout.html" class="position-relative">
+                  <div class="side-icon bg1-color">
+                    <i class="ph ph-shopping-cart n11-color"></i>
+                  </div>
+                  <div class="cart-counter">
+                    <span class="n1-color">02</span>
+                  </div>
+                </a> -->
+              
+                            <a href="login.html" class="side-icon p1-color bgn1-color brn4">
+                <div class="d-flex flex-column align-items-center gap-1">
+                  <!--<span class="toggle_name fs-eleven n5-color">DarkMode</span>-->
+                  <button class="side-icon  mood_toggle ">
+                    <i class="mood_icon ph-fill ph-sign-in fs-six n11-color"></i>
+                  </button>
+                </div>
+              </a>
+                            
+              </div>
+            </div>
+          </div>
+          <div class="side-menu-right overflow-y-auto">
+            <div class="d-flex flex-column gap-6 justify-content-between pt-40 py-10 px-5 h-100">
+              <div class="">
+                <div class="sidebar-profile">
+                  <div class="position-relative">
+                  
+                                    
+                    <div class="profile-img1 d-flex justify-content-center overflow-hidden" onclick="location.href='/';" style="cursor:pointer;">
+                      <img src="logox.png" alt="logo" class="">
+                    
+                  </div>
+                  <!--<span class="thumb">👋</span>-->
+                                      
+                  </div>
+
+                  <h4 class="n5-color fw-semibold fs-five mt-2 text-center">
+                    Shell AI
+                  </h4>
+                  <b class="n5-color fs-nine d-block text-center crc-grn">Devops Terminal & IDE </b>
+                  <div class="d-flex justify-content-center gap-2 align-items-center mt-3">
+                    <a href="https://x.com/Shell_AI_" class="social-icon p1-color">
+                      <i class="ph ph-x-logo"></i>
+                    </a>
+                    <a href="https://t.me/" class="social-icon p1-color">
+                      <i class="ph ph-telegram-logo"></i>
+                    </a>
+                    <a href="https://pump.fun/" class="social-icon p1-color">
+                      <i class="ph ph-pill"></i>
+                    </a>
+                  </div>
+                </div>
+              
+                    
+                                      
+                <div class="line-divider my-4 my-md-8"></div>
+
+                <div class="menu-list">
+                  <ul class="d-flex flex-column gap-3">
+                    <li class="rounded-3  bg1-color ">
+                      <a href="index.htm" class="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2"><i class="ph ph-terminal-window fs-six"></i> Terminal</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="drive.html" class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2">
+                          <i class="ph ph-code-block fs-six"></i> IDE Drive
+                        </div>
+                                              <span class="n5-color bg2-color fs-ten px-1 pt-0 rounded-2 me-3 hidden" style="background-color:#FF4040 !important;font-weight:bold !important;">Pro</span>
+                                            </a>
+                    </li>
+                 
+              
+                    <li class="rounded-3 ">
+                      <a href="blog.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-article fs-six"></i> Blog</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="about.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-dog fs-six"></i>About</a>
+                    </li>
+                    <li class="rounded-3 ">
+                      <a href="contact.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-envelope fs-six"></i>Contact</a>
+                    </li>
+                                     <li class="rounded-3  hidden">
+                      <a href="login.html" class="d-flex align-items-center gap-2 n5-color fs-eight px-3 py-2"><i class="ph ph-arrow-square-right fs-six"></i>Login</a>
+                    </li>
+                                    
+                  </ul>
+                </div>
+              
+              
+       
+             
+              
+              </div>
+              <!--<a
+                href="contact.html"
+                class="primary-btn fw-medium px-3 px-md-6 py-2 py-md-4 rounded-pill d-flex align-items-center gap-2 mx-auto"
+              >
+                <i class="ph ph-paper-plane-tilt"></i>Hire Me
+              </a> -->
+      
+            
+             <div class="d-flex justify-content-center gap-2 align-items-center " onclick="location.href='https://shop.interactiveshell.com/';" style="cursor:pointer;">
+                <img src="assets/default/img/btn_windows.png" alt="app" width="50%">   
+             
+             </div>
+            
+            <!--<p class="small text-white">© Interactive Shell 2025</p> -->
+            </div>
+          
+          
+          
+          </div>
+        </div>
+      </div>
+      <!-- sidebar end -->
+	<div class="" style="overflow: auto !important;
+max-height: 100vh !important;">
+	
+<style>
+
+.rframe {
+  width: 100%;
+  height: 100vh; 
+  max-width: 100vh;  
+  aspect-ratio: 16/9;  
+}
+
+</style>
+<center>
+
+
+          <div class="pt-40 pb-60 br-bottom-n3 overflow-hidden mt-10 mt-lg-0  rframe" style="padding-top:100px !important; padding-bottom:60px !important;">
+            <div class="container ">
+              <!-- Home Subpage -->
+              <section>
+                <div class="vcentered d-flex flex-wrap gap-10 gap-md-15 align-items-center justify-content-between">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-12 col-lg-12" style="">
+                                                       <div class="header-photo-logo hide_menu">
+               <a href="index.htm"> <img src="logo.svg" alt="Interactive Shell Logo" width="75%"> </a>
+              </div>
+                      <!--<h2 class = "text-white " style="font-size:26px !important; margin-top:5px !important;">A Powerful <span style="color: #3BD671 !important; font-size:26px !important;">Development</span> Tool</h2> -->
+                      <h2 class="text-white " style=" font-size:24px !important;  margin-top:5px !important;">A Powerful <span style=" color:    #3BD671 !important;">Development</span> Tool</h2>
+                        <div class="title-block ">
+                          <!-- <div class="md-dd cr-mr small mb-2  " style="padding-top:5px !important;"><span class="crc-vrn" style="">Terminal</span><span class="crc-grn" style="">Online IDE</span><span class="crc-brn" style="">AI Assist</span> </div> -->
+                        <div class="md-dd cr-mr small mb-2  " style="padding-top:5px !important;"><span class="crc-vrn" style="">Terminal</span><span class="crc-grn" style="">Online IDE</span><span class="crc-brn" style="">AI Assist</span> </div>
+                          <div class="owl-carousel text-rotation mb-2 hidden ">                                    
+                            <div class="item mbh">
+                              <!--<div class="sp-subtitle"><b style="color: #eee !important; ">with <span style="color: #3BD671 !important; ">AI</span> and <span style="">IDE</span> Drive</b></div> -->
+                            <!--<div class="md-dd cr-mr small"><span class="crc-vrn" style="font-weight:bold !important;">Terminal</span><span class="crc-grn" style="font-weight:bold !important;">Online IDE</span><span class="crc-brn" style="font-weight:bold !important;">AI Assist</span> </div>-->
+                            </div>
+                            
+                            <!--<div class="item">
+                              <div class="sp-subtitle">To test and develop</div>
+                            </div> -->
+                          </div>
+                        
+                        
+                                                <!-- Terminalx -->
+                        
+          
+        <div id="terminalx" class="mbp">
+            <section class="text-center">
+                <div class="">
+                    <div class="">
+                    <!--<h2 class="section-title mt-0"> Learn Linux Shell</h2> -->
+               <!--         <h1 class="hero-title h2-mobile mt-0 is-revealing " style="font-weight:bold !important;color: #34495e;"><span class="text-highlight">Interactive Shell</span></h1>
+                        <p class="hero-paragraph is-revealing">A simple, free and accessible shell made with <i class="fa-solid fa-heart" style="color:#DB0C4D !important"></i> by <a class="link" href="https://www.scientificprogramming.io" target="_blank" style="text-decoration:dotted; border-bottom: 1px dotted; font-weight:bold;">Scientific Programming School</a> for teaching and learning Linux and PowerShell.</p>
+-->
+
+
+                        <div class="">
+                            <!--<div class="bubble-3 is-revealing">
+                                <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M213.5 286C331.413 286 427 190.413 427 72.5S304.221 16.45 186.309 16.45C68.396 16.45 0-45.414 0 72.5S95.587 286 213.5 286z" id="bubble-3-a"/>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-3-b" fill="#fff">
+                                            <use xlink:href="#bubble-3-a"/>
+                                        </mask>
+                                        <use fill="#4E8FF8" xlink:href="#bubble-3-a"/>
+                                        <path d="M64.5 129.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C-80.604-139.782-149-201.644-149-83.73c0 117.913 95.587 213.5 213.5 213.5z" fill="#1274ED" mask="url(#bubble-3-b)"/>
+                                        <path d="M381.5 501.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C236.396 232.218 168 170.356 168 288.27c0 117.913 95.587 213.5 213.5 213.5z" fill="#75ABF3" mask="url(#bubble-3-b)"/>
+                                    </g>
+                                </svg>
+                            </div> -->
+                                                    <div class="bubble-4 is-revealing hidden">
+                                <svg width="230" height="235" viewbox="0 0 230 235" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M196.605 234.11C256.252 234.11 216 167.646 216 108 216 48.353 167.647 0 108 0S0 48.353 0 108s136.959 126.11 196.605 126.11z" id="bubble-4-a"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-4-b" fill="#fff">
+                                            <use xlink:href="#bubble-4-a"></use>
+                                        </mask>
+                                        <use fill="#7CE8DD" xlink:href="#bubble-4-a"></use>
+                                        <circle fill="#3BDDCC" mask="url(#bubble-4-b)" cx="30" cy="108" r="108"></circle>
+                                        <circle fill="#B1F1EA" opacity=".7" mask="url(#bubble-4-b)" cx="265" cy="88" r="108"></circle>
+                                    </g>
+                                </svg>
+                            </div>
+                                                    <div id="basm" class="hero-browser-inner is-revealing">
+                             <!--   <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="browser-b">
+                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
+                                            <stop stop-color="#F6F8FA" offset="100%"/>
+                                        </linearGradient>
+                                        <linearGradient x1="100%" y1="-12.816%" x2="0%" y2="-12.816%" id="browser-c">
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="0%"/>
+                                            <stop stop-color="#E3E7EB" offset="50.045%"/>
+                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="100%"/>
+                                        </linearGradient>
+                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
+                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
+                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
+                                            <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
+                                        </filter>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <rect width="800" height="450" rx="4" fill="#FFF" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
+                                        <rect width="800" height="450" rx="4" fill="#FFF"/>
+                                        <g fill="url(#browser-a)" transform="translate(47 67)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <g transform="translate(47 239)" fill="url(#browser-b)">
+                                            <path d="M146 0h122v122H146zM0 0h122v122H0zM292 0h122v122H292zM438 0h122v122H438zM584 0h122v122H584z"/>
+                                        </g>
+                                        <path fill="url(#browser-c)" d="M0 146h706v2H0z" transform="translate(47 67)"/>
+                                        <g transform="translate(0 12)">
+                                            <circle fill="#FF6D8B" cx="36" cy="4" r="4"/>
+                                            <circle fill="#FFCB4F" cx="52" cy="4" r="4"/>
+                                            <circle fill="#7CE8DD" cx="68" cy="4" r="4"/>
+                                            <path fill="url(#browser-c)" d="M0 20h800v2H0z"/>
+                                            <path fill="#E3E7EB" d="M742 2h24v4h-24z"/>
+                                        </g>
+                                        <g>
+                                            <path fill="#F6F8FA" d="M47 385h706v32H47z"/>
+                                            <path fill="#E3E7EB" d="M356 399h88v4h-88z"/>
+                                        </g>
+                                    </g>
+                                </svg> -->
+
+                                         <div id="part_list">
+
+
+                 <!--terminal-->
+           
+                                         <!-- Modal -->
+                                         <style>
+                                         .modal-backdrop {
+ display:none !important;
+}
+                                         </style>
+<div class="modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="pt-10 pl-20 pr-20 pb-20" style="background-color: #1C2434 !important; border-radius:10px !important;">
+      <div class="modal-header">
+        <h5 class="modal-title " id="staticBackdropLabel">Useful hints</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="cursor:pointer !important;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-gray">
+<ul>
+<li>Access IDE workspace files from the <code>/mnt</code> folder (Pro)</li>
+<li>Compile with: <code>gcc, python3, java</code>, and more.</li>
+<li>Start AI assist with the command: <code>ai</code> (Pro)</li>
+<li>Record your terminal with: <code> asciinema rec </code></li>
+<li></li>
+</ul>
+      </div>
+      <!--<div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-sm">Understood</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+                                         
+                                             
+    <section id="9999" class="uk-margin-auto uk-margin-medium-bottom uk-margin-medium-top" style="">
+            <div id="card-9999" class="" style="box-shadow:none !important;">
+
+               <div id="terminal-9999" class="card mt-3" style="filter: drop-shadow(0px 0px 4px #0ebeff); border-radius: 5px !important;  border: 0px solid #3E416D !important;padding-left:0 !important;padding-bottom:0 !important;padding-top:0 !important;background:  #1C2434  ;">
+                  <ul class=" mt-0 pt-0" style="list-style-type:none !important;">
+                     <li class="">
+                                          <a href="index.htm" target="_blank"><span style="float:left; margin-top: 10px; margin-bottom:10px; margin-left:10px; !important;">  <img src="favicon.png" style="display:inline-block; margin-bottom:0px;" width="26" height="26">  </span> </a>
+                                             <!--  <span id = "live-terminal-status-9999" class="badge badge-pill badge-primary float-right">offline</span>  -->
+                     <!--   <span  class="float-right mt-0 mb-0" style="display:block;" >-->
+                     <a id="btn-full" class="button1 melement" style="float:right !important; margin-top:9px; margin-right:20px;"><!--<i id="icofull" class="fa-regular fa-window-maximize hidden" style="color:#ffffff !important;"></i>--><i id="icofull" class="ph ph-corners-out fs-six text-white"></i></a>
+                     <a id="btn-full-info" class="button1 melement" style="float:right !important; margin-top:9px; margin-right:10px;" data-toggle="modal" data-target="#staticBackdrop"><i id="icohelp" class="fa-solid fa-circle-info hidden" style="color:#ffffff !important;"></i><i class="ph ph-info fs-six text-white"></i></a>
+                           <select class="select2-size-sm form-control alert-primary selectOSBtn-class select-css" id="selectOSBtn-9999" required="required" style="cursor:pointer !important;font-size:10px !important;height:20px !important;padding-top:0 !important;padding-bottom:0 !important;text-align: center !important;">
+                              <option value="ubuntu" selected="">Ubuntu (24.04)</option>
+                              <option value="rhel">RHEL (8.1)</option>
+                              <option value="suse">OpenSuSE (Leap 15.1)</option>
+                              <option value="windows">Windows (PS 7)</option>
+                           </select>
+                        <!--</span>-->
+                        <!-- <span class="feather icon-cast font-medium-2 text-danger" style="vertical-align: middle;"></span> <b>Interactive Shell</b> -->
+                     
+                  
+                  </li></ul>
+                  <div class="vcontainer" style="padding-bottom:0 !important;margin-bottom:0 !important;background-color:#290E24 !important;">
+                     <!-- <iframe class="embed-responsive-item" src="" id="live-terminal" frameBorder="0" style="border: 0" scrolling="no"></iframe> -->
+                     <!-- <iframe id="live-terminal-9999" class="vresponsive-iframe live-terminal-class" src="https://terminal.interactiveshell.com/ubuntu"  frameBorder="0" style="border: 0" scrolling="no" onMouseOver=overTerminalIframe("9999")></iframe>-->
+                  <!--<iframe id="live-terminal-9999" class="vresponsive-iframe live-terminal-class" src="https://terminal.interactiveshell.com:11000"  frameBorder="0" style="border: 0" scrolling="no" onMouseOver=overTerminalIframe("9999")></iframe> -->
+                  
+
+                  
+                  <iframe id="live-terminal-9999" class="vresponsive-iframe live-terminal-class" src="https://terminal.interactiveshell.com:11000" frameborder="0" style="border: 0" scrolling="no" onload="this.contentWindow.focus()"></iframe>
+                  <script> setupTerminalTopBar("9999","ubuntu","https://terminal.interactiveshell.com:11000") </script>
+                  </div>
+               </div>
+            
+                        
+            <p class=" hide text-white fs-nine" style="margin-top:-5px !important;"> <!--<i id="icohelp" class="fa-solid fa-circle-info" style="color:#ffffff !important;"></i>--><i id="icohelp" class="ph ph-bell-simple-ringing fs-six"></i>&nbsp;&nbsp;<a style="color: #3BD671; font-weight:bold" class="fs-nine"> CA:</a> <span class="fs-nine">Dropping Soon...</span></p> 
+            
+                                    <div class="owl-carousel text-rotation hidden">                                    
+                            <!--<div class="item mbh">
+                              <p class="small" style="margin-top:0px !important;"> <i id="icohelp" class="fa-solid fa-circle-info" style="color:#ffffff !important;"></i>&nbsp; Login to access <a href="#drive" style="color: #3BD671; font-weight:bold">IDE</a> files from <b>/mnt</b> directory.</p> 
+                            </div> -->
+                            
+                            <div class="item mbh ">
+<!--                                <p class="small" style="margin-top:0px !important;"> <i id="icohelp" class="fa-solid fa-circle-info" style="color:#ffffff !important;"></i>&nbsp;<span class="">Persistent sessions and</span> <b class="grad-2">Internet</b> available for <a href="#pricing" style="color: #3BD671; font-weight:bold">Premium</a> users.</p>  -->
+                            </div> 
+                          </div>
+            
+            <!--<p style="margin-top:-20px !important;">Premium users can access Internet and IDE drive files from the <code>/mnt</code> folder.</p>-->
+
+            </div>
+   </section>
+    
+                                       
+<script>
+
+$('input[type=checkbox]').prop('checked', true);   
+
+
+$("#readLessonSwitch").click(function(e){
+      //  e.preventDefault();
+         //window.location = "/reset_container";
+         $('input[type=checkbox]').prop('checked', true);   
+        $.ajax({
+            url: '/reset_container',
+            type: 'post',
+            cache: false,
+            timeout: 30000,
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            success: function (data) {
+                if (data.status == 'success') 
+               {
+               
+               $('input[type=checkbox]').prop('checked', false);   
+              // $("#readLessonSwitch").addAttr("checked"); 
+                 $.toast({
+    heading: 'Information',
+    text: 'You session has been aborted.',
+    position: 'top-right',
+                bgColor: ' #e74c3c ',
+    textColor: 'white',
+    stack:true
+});
+               window.location.reload(true);
+               //   console.log(data);
+                } else {
+                console.log(data);
+                }
+            }
+        });
+
+
+});
+
+function showSpinnerWhileIFrameLoads() {
+    //var iframe = $('iframe');
+var iframe = $('iframe');
+
+    if (iframe.length) {
+        $(iframe).before('<div class=\'  \' style=\' background-color: transparent;  position: absolute;top: 43%;left: 0; right: 0;    \' id=\'spinner\'><i style=\'color: #BEB8BD; \'class=\'fa fa-gear fa-spin fa-3x fa-fw\'></i></div>');
+        $(iframe).on('load', function() {
+        
+       // var $iframe = $("#live-terminal-9999").contents();
+     //$("body", iframe).trigger("click");
+        
+        //$('#live-terminal-9999').trigger('click');
+        //document.getElementById("terminal-container").click();
+        //document.getElementById('live-terminal-9999').contentWindow.document.getElementById('terminal-container').click()
+    
+  //      var iframeID = document.getElementById("live-terminal-9999"); 
+  //var iframeID = document.getElementById("modalIFrame"); 
+//focus the IFRAME element 
+//$(iframeID).focus(); 
+//use JQuery to find the control in the IFRAME and set focus 
+//$(iframeID).contents().find("#terminal-container").focus();         
+  //find button inside iframe
+  //let iframe = $('#live-terminal-9999');
+  //document.getElementsByName("live-terminal-9999")[0].contentWindow.document.body.focus();
+   //     var iframe = document.getElementById("live-terminal-9999");
+ // var elmnt = iframe.contentWindow.document.getElementById("terminal-container");
+  //elmnt.focus();
+  //let button = iframe.contents().find('#terminal-container');
+  
+  //trigger button click
+  //button.focus();
+  //button.trigger("click");
+        //$('#terminal-container').trigger('click');
+        //$('.xterm-viewport').click();
+        //$('#terminal-container').setOption('cursorBlink', true)
+        //window.term.focus();
+            document.getElementById('spinner').style.display='none';
+        });
+    }
+}
+
+/*
+$('iframe').on('load', function() {
+    // do stuff 
+    // 
+    /*var script = document.createElement('script');
+script.src = 'https://unpkg.com/keysim@latest/dist/keysim.js';
+script.onload = function() {
+	var input = document.querySelector('textarea');
+	var keyboard = Keysim.Keyboard.US_ENGLISH;
+	keyboard.dispatchEventsForInput("ls", input);
+	keyboard.dispatchEventsForAction("enter", input);
+};
+document.body.appendChild(script);
+});*/
+
+
+
+/*document.getElementsByName("live-terminal-9999")[0].contentWindow.document.body.focus();
+document.getElementsByName("live-terminal-9999")[0].click();
+$('#live-terminal-9999').trigger('click');
+//
+
+
+    var $iframe = $("#live-terminal-9999").contents();
+     $("body", $iframe).trigger("click");
+*/
+/*
+jQuery('#terminal-container',jQuery('[id="live-terminal-9999"]')[0].contentWindow.document.body).on('click',function(){	
+	console.log("triggered !!")
+});
+
+setTimeout(() => {
+$('#live-terminal-9999').trigger('click');
+  // runs after 2 seconds
+}, 10000);
+*/
+
+var button = document.querySelector('.button1');
+button.addEventListener('click', fullscreen);
+// when you are in fullscreen, ESC and F11 may not be trigger by keydown listener. 
+// so don't use it to detect exit fullscreen
+document.addEventListener('keydown', function (e) {
+  //console.log('key press' + e.keyCode);
+});
+// detect enter or exit fullscreen mode
+document.addEventListener('webkitfullscreenchange', fullscreenChange);
+document.addEventListener('mozfullscreenchange', fullscreenChange);
+document.addEventListener('fullscreenchange', fullscreenChange);
+document.addEventListener('MSFullscreenChange', fullscreenChange);
+
+function fullscreen() {
+
+  // check if fullscreen mode is available
+  if (document.fullscreenEnabled || 
+    document.webkitFullscreenEnabled || 
+    document.mozFullScreenEnabled ||
+    document.msFullscreenEnabled) {
+    
+    // which element will be fullscreen
+    var iframe = document.querySelector('#basm');
+    // Do fullscreen
+    if (iframe.requestFullscreen) {
+    
+      iframe.requestFullscreen();
+    } else if (iframe.webkitRequestFullscreen) {
+    
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.mozRequestFullScreen) {
+    
+      iframe.mozRequestFullScreen();
+    } else if (iframe.msRequestFullscreen) {
+    
+      iframe.msRequestFullscreen();
+    }
+  }
+  else {
+    //document.querySelector('.error').innerHTML = 'Your browser is not supported';
+  }
+}
+
+/*document.addEventListener("fullscreenChange", function () {
+          if (fullscreenElement != null) {
+              console.info("Went full screen");
+          } else {
+              console.info("Exited full screen");              
+          }
+      });*/
+
+function fullscreenChange() {
+
+
+
+  if (document.fullscreenEnabled ||
+       document.webkitIsFullScreen || 
+       document.mozFullScreen ||
+       document.msFullscreenElement) {
+  //  console.log('enter fullscreen');
+//$( "#icofull" ).addClass( "fa-window-restore" );  
+//  $( "#icofull" ).remove();
+ // $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-restore "></i>');
+
+  }
+  else {
+//    console.log('exit fullscreen');
+//$( "#icofull" ).removeClass( "fa-window-restore" );
+  
+  
+  }
+  // force to reload iframe once to prevent the iframe source didn't care about trying to resize the window
+  // comment this line and you will see
+  var iframe = document.querySelector('iframe');
+  iframe.src = iframe.src;
+
+  $( "#btn-full" ).on( "click", function() {
+  //$( "#icofull" ).addClass( "fa-window-maximize" );
+  //$("#icofull").attr("class", "fa-regular fa-window-maximize");
+// $( "#icofull" ).removeClass( "fa-window-restore" ); 
+//  $( "#icofull" ).remove();
+//  $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize "></i>');
+  //alert( "Handler for `click` called." );
+ if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+ 
+  }
+  
+  
+  
+} );
+
+}
+
+
+function fullscreenchanged(event) {
+  // document.fullscreenElement will point to the element that
+  // is in fullscreen mode if there is one. If not, the value
+  // of the property is null.
+  if (document.fullscreenElement) {
+    console.log(
+      `Element: ${document.fullscreenElement.id} entered fullscreen mode.`,
+    );
+  $( "#icofull" ).remove();
+  //$( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-restore " style="color: #ffffff !important;"></i>');
+  $( "#btn-full" ).append('<i id="icofull" class="ph ph-corners-in fs-six text-white" ></i>');
+
+  } else {
+   // console.log("Leaving fullscreen mode.");
+            $( "#icofull" ).remove();
+  //$( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize " style="color: #ffffff !important;"></i>');
+  $( "#btn-full" ).append('<i id="icofull" class="ph ph-corners-out fs-six text-white"></i>');
+  
+  }
+}
+
+const el = document.getElementById("basm");
+
+el.addEventListener("fullscreenchange", fullscreenchanged);
+// or
+el.onfullscreenchange = fullscreenchanged;
+
+// When the toggle button is clicked, enter/exit fullscreen
+/*document.getElementById("toggle-fullscreen").addEventListener("click", (event) => {
+    if (document.fullscreenElement) {
+      // exitFullscreen is only available on the Document object.
+      document.exitFullscreen();
+    } else {
+      el.requestFullscreen();
+    }
+  });*/
+
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    //console.log( "ready!" );
+
+
+$('#selectOSBtn-9999  option[value="ubuntu"]').prop('selected', 'selected').change();
+   
+
+});
+
+showSpinnerWhileIFrameLoads();
+
+
+</script>
+                                         
+                                         
+                                                         
+                                         
+   <script>
+
+    //  setupTerminal("9999", "", "https://terminal.interactiveshell.com:11000");
+   </script>
+   <!-- Terminal -->
+<!--<p class="hero-title h2-mobile mt-0 is-revealing" style="font-size:14px;color: #a569bd ;font-weight:bold;">💡 <a class="popup-vimeo" href="https://vimeo.com/444116639" target="_blank" style="text-decoration:dotted; border-bottom: 1px dotted; font-weight:bold;">Select an OS and start learning Shell, Python, GCC, GC++, Java, Vim and more!</a></p> -->
+<!--<p id="btnSubmit">dfsdf </p> -->
+                            </div>
+
+
+                            
+
+                            </div>
+                                                    <div class="bubble-1 is-revealing hidden " style="z-index:-1000 !important;">
+                                <svg width="61" height="52" viewbox="0 0 61 52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M32 43.992c17.673 0 28.05 17.673 28.05 0S49.674 0 32 0C14.327 0 0 14.327 0 32c0 17.673 14.327 11.992 32 11.992z" id="bubble-1-a"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-1-b" fill="#fff">
+                                            <use xlink:href="#bubble-1-a"></use>
+                                        </mask>
+                                        <use fill="#FF6D8B" xlink:href="#bubble-1-a"></use>
+                                        <path d="M2 43.992c17.673 0 28.05 17.673 28.05 0S19.674 0 2 0c-17.673 0-32 14.327-32 32 0 17.673 14.327 11.992 32 11.992z" fill="#FF4F73" mask="url(#bubble-1-b)"></path>
+                                        <path d="M74 30.992c17.673 0 28.05 17.673 28.05 0S91.674-13 74-13C56.327-13 42 1.327 42 19c0 17.673 14.327 11.992 32 11.992z" fill-opacity=".8" fill="#FFA3B5" mask="url(#bubble-1-b)"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="bubble-2 is-revealing hidden">
+                                <svg width="179" height="126" viewbox="0 0 179 126" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <path d="M104.697 125.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S0-28.44 0 12.593c0 41.034 63.663 113.068 104.697 113.068z" id="bubble-2-a"></path>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <mask id="bubble-2-b" fill="#fff">
+                                            <use xlink:href="#bubble-2-a"></use>
+                                        </mask>
+                                        <use fill="#838DEA" xlink:href="#bubble-2-a"></use>
+                                        <path d="M202.697 211.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S98 57.56 98 98.593c0 41.034 63.663 113.068 104.697 113.068z" fill="#626CD5" mask="url(#bubble-2-b)"></path>
+                                        <path d="M43.697 56.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S-61-97.44-61-56.407C-61-15.373 2.663 56.661 43.697 56.661z" fill="#B1B6F1" opacity=".64" mask="url(#bubble-2-b)"></path>
+                                    </g>
+                                </svg>
+
+                            </div>
+                                                </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+        </div>
+
+
+
+ 
+                        
+                        <!-- Terminalx -->
+                        
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+              </section>
+              <!-- End of Home Subpage -->
+
+
+            
+            </div>
+          </div>
+
+ </center>
+
+</div>
+      
+
+        <!-- footer section start -->
+        <!-- <section
+          class="container d-flex flex-wrap gap-3 gap-md-6 justify-content-center justify-content-sm-between align-items-center pb-4 pb-md-8 text-center mb-16 mb-lg-0"
+        >
+          <span class="fs-eight fw-medium n5-color order-sm-2"
+            >Designed by
+            <a
+              href="https://themeforest.net/user/uiaxis"
+              class="fs-eight fw-medium n5-color"
+              >UIAXIS</a
+            ></span
+          >
+          <span class="fs-eight fw-medium n5-color order-sm-1"
+            >Copyright © 2024
+            <a href="index.html" class="fs-eight fw-medium n5-color"
+              >Portfolify</a
+            >. All Rights Reserved.</span
+          >
+        </section> -->
+        <!-- footer section end -->
+      
+ </div>
+
+</div>
+
+
+<!-- port -->
+
+
+    <!-- script js  -->
+    <!--<script src="/port/assets/js/plugins/plugins.js"></script> -->
+    <script src="port/assets/js/main.js"></script>
+    <!-- <script src="/port/assets/js/type-word.js"></script> -->
+    <!-- swiper js  -->
+    <script src="npm/swiper%4011/swiper-bundle.min.js"></script> 
+    <!-- email js  -->
+    <!--<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script> -->
+    <!-- aos -->
+    <script src="aos%403.0.0-beta.6/dist/aos.js"></script> 
+
+<!-- port -->
+
+<!-- Template JS File -->
+
+<script src="assets/default/js/app.js"></script>
+<!--<script src="/assets/default/vendors/feather-icons/dist/feather.min.js"></script> -->
+<script src="assets/default/vendors/moment.min.js"></script>
+<script src="assets/default/vendors/sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="assets/default/vendors/toast/jquery.toast.min.js"></script>
+<!--<script type="text/javascript" src="/assets/default/vendors/simplebar/simplebar.min.js"></script> -->
+
+<!--<script src="/assets/default/js/parts/main.min.js"></script>  -->
+<!--<script src="/assets/default/vendors/swiper/swiper-bundle.min.js"></script> -->
+<!--<script src="/assets/default/vendors/owl-carousel2/owl.carousel.min.js"></script> -->
+<!--<script src="/assets/default/vendors/parallax/parallax.min.js"></script> -->
+<!--<script src="/assets/default/js/parts/home.min.js"></script> -->
+<!--<script src="dist/js/main.min.js"></script> -->
+
+<!--<script src="/v2/js/modernizr.custom.js"></script> -->
+<!--<script src="/v2/js/animating.js"></script>-->
+<!--<script src="/v2/js/imagesloaded.pkgd.min.js"></script>  -->
+    <!--<script src='https://www.google.com/recaptcha/api.js'></script> -->
+<!--<script src='/v2/js/perfect-scrollbar.min.js'></script>-->
+<!--<script src='/v2/js/jquery.shuffle.min.js'></script>
+<script src='/v2/js/masonry.pkgd.min.js'></script> 
+    <script src='/v2/js/owl.carousel.min.js'></script>  -->
+<!--<script src="/v2/js/jquery.magnific-popup.min.js"></script> -->
+<!--<script src="/v2/js/validator.js"></script>
+<script src="/v2/js/main.js"></script> -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+
+  </body>
+
+
+
+<script>
+    var deleteAlertTitle = 'Are you sure?';
+    var deleteAlertHint = 'This action cannot be undone!';
+    var deleteAlertConfirm = 'Delete';
+    var deleteAlertCancel = 'Cancel';
+    var deleteAlertSuccess = 'Success';
+    var deleteAlertFail = 'Failed';
+    var deleteAlertFailHint = 'Error while deleting item!';
+    var deleteAlertSuccessHint = 'Item successfully deleted.';
+    var forbiddenRequestToastTitleLang = '&quot;FORBIDDEN&quot; Request';
+    var forbiddenRequestToastMsgLang = 'You not access to this content.';
+</script>
+
+
+              
+
+
+
+<script>
+$(".counter").each(function () {
+  var $this = $(this),
+    countTo = $this.attr("data-countto");
+  countDuration = parseInt($this.attr("data-duration"));
+  $({ counter: $this.text() }).animate(
+    {
+      counter: countTo
+    },
+    {
+      duration: countDuration,
+      easing: "linear",
+      step: function () {
+        $this.text(Math.floor(this.counter));
+      },
+      complete: function () {
+        $this.text(this.counter);
+      }
+    }
+  );
+});
+
+</script>
+<script>
+/*var i = 0;
+var txt = 'Create and Learn Interactively with AI';
+var speed = 100;
+
+function typeWriter() {
+
+  if (i < txt.length) {
+    document.getElementById("id_slogan").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+
+}
+
+typeWriter()*/
+
+
+$("img").bind("load", function () {
+ $(this).css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, "slow"); 
+});
+</script>
+
+<script>
+$(".vpop").on('click', function(e) {
+  e.preventDefault();
+  $("#video-popup-overlay,#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();
+  
+  var srchref='',autoplay='',id=$(this).data('id');
+  if($(this).data('type') == 'vimeo') var srchref="//player.vimeo.com/video/";
+  else if($(this).data('type') == 'youtube') var srchref="https://www.youtube.com/embed/";
+  
+  if($(this).data('autoplay') == true) autoplay = '?autoplay=1';
+  
+  $("#video-popup-iframe").attr('src', srchref+id+autoplay);
+  
+  $("#video-popup-iframe").on('load', function() {
+    $("#video-popup-container").show();
+  });
+});
+
+$("#video-popup-close, #video-popup-overlay").on('click', function(e) {
+  $("#video-popup-iframe-container,#video-popup-container,#video-popup-close,#video-popup-overlay").hide();
+  $("#video-popup-iframe").attr('src', '');
+});
+
+//$('.xterm-cursor-layer').trigger('click');
+
+/*(function ($) {
+    "use strict";
+
+    window.captcha_src = function (callback) {
+
+        $.ajax({
+            url: '/captcha/create',
+            type: 'post',
+            cache: false,
+            timeout: 30000,
+        headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            success: function (data) {
+                if (data.status == 'success') {
+                    if (callback) {
+                        callback(data.captcha_src);
+                    }
+                } else {
+                    callback(false);
+                }
+            }
+        });
+    };
+
+    window.refreshCaptcha = function () {
+        captcha_src(function (captcha_src) {
+            if (captcha_src) {
+                $('.captcha-image').attr('src', captcha_src);
+            } else {
+                $('.captcha-image').closest('.form-group').find('.help-block').html('مشکلی پیش آمده لطفا دوباره تلاش کنید.');
+            }
+        });
+    };
+
+})(jQuery);*/
+
+
+</script>
+
+                       <!--<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
+
+
+<script src="ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<link rel="stylesheet" href="ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"> 
+
+
+    <!--<link rel="stylesheet" href="/assets/default/vendors/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/default/vendors/owl-carousel2/owl.carousel.min.css">-->
+<!-- TrustBox script -->
+<!--<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>-->
+
+    
+<!--    <script src="/assets/default/js/parts/main.min.js"></script>  -->
+
+    <!--<script src="/assets/default/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/default/vendors/owl-carousel2/owl.carousel.min.js"></script> -->
+
+  <!--<script src="/assets/vendors/leaflet/leaflet.min.js"></script>
+
+    <script src="/assets/default/js/parts/contact.min.js"></script> -->
+
+<!--<script type="text/javascript" src="https://payhip.com/payhip.js"></script> -->
+
+<script>                      
+/*$(".d-pay").click(function() {
+    
+
+    
+    //alert('dd');
+    var amount = 19;
+    
+    
+    var payhip_amount = (parseFloat(amount) + parseFloat(amount)*.05 + parseFloat(amount)*.036 + 0.30).toFixed(2); 
+  //  console.log(payhip_amount);
+    
+    
+        Payhip.Checkout.open({
+        product: "4KNlp",
+        title: "Interactive Shell",
+        pwyw: [{product: "4KNlp", price: payhip_amount}],
+        //metadata:tsr,
+        metadata: "",
+        method: "overlay",
+        icon: "https://www.interactiveshell.com/public/favicon.png",
+        message: "License key will be emailed to you, apply it as your coupon code at interactiveshell.com/apply",
+        successCallback:function(data) {
+        //console.log(data.buyer);
+        localStorage.setItem("_pbuyer", data.buyer);
+        window.location.href = "https://www.interactiveshell.com/apply";
+
+},
+//        successUrl:"https://www.learnitive.com/apply",
+    });
+    
+ });*/
+
+
+</script>
+
+              
+
+
+
+<script>
+    
+</script>
+
+<script>
+	//Loader	
+	$(function preloaderLoad() {
+        if($('.preloader').length){
+            $('.preloader').delay(200).fadeOut(300);
+        }
+        $(".preloader_disabler").on('click', function() {
+            $("#preloader").hide();
+        });
+    });
+
+$(document).ready(function(){
+//   feather.replace();
+
+});
+
+</script>
+
+<script>
+// lazy loader
+document.addEventListener('DOMContentLoaded', () => {
+  const config = {
+    rootMargin: '0px 0px 55% 0px',
+    threshold: 0,
+  };
+  
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const lazyImage = entry.target;
+        if (lazyImage.dataset.classSrc) {
+          lazyImage.classList.add(lazyImage.dataset.classSrc);
+        } else {
+          lazyImage.src = lazyImage.dataset.src;
+        }
+        lazyImage.classList.remove('lazy-img');
+        imgObserver.unobserve(lazyImage);
+      }
+    });
+  }, config);
+  const arr = document.querySelectorAll('[data-src], [data-class-src]');
+  arr.forEach((v) => {
+    imageObserver.observe(v);
+  });
+});
+
+</script>
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+$(document).ready(function () {
+
+jQuery(document).ready(function($){
+  $(document).on('click', '.fa-expand', function(){
+ //     $( this ).removeClass( "fa-expand" );
+ // 	  $( this ).addClass( "fa-compress" );
+  $( "#ico-xl" ).remove();
+  $( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-compress " style="color: #ffffff !important;"></i>');
+$( "#div-page-content" ).removeClass( "page-content" );
+  $( "#div-page-content" ).addClass( "page-content-xl" );
+  
+  });
+  
+  $(document).on('click', '.fa-compress', function(){
+	$( "#ico-xl" ).remove();
+  $( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-expand " style="color: #ffffff !important;"></i>');
+ $( "#div-page-content" ).removeClass( "page-content-xl" );
+  $( "#div-page-content" ).addClass( "page-content" );
+  });
+  
+  
+});
+
+/*
+  $( "#ico-xl" ).on( "click", function() {
+  $( this ).removeClass( "fa-expand" );
+  $( this ).addClass( "fa-compress" );
+  //$( "#ico-xl" ).remove();
+  //$( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-compress "></i>');
+  //$("#ico-xl").attr("class", "fa-solid fa-compress");
+  //$( "#ico-xl" ).removeClass( "fa-expand" );
+  //$( "#ico-xl" ).addClass( "fa-compress" );
+  $( "#div-page-content" ).removeClass( "page-content" );
+  $( "#div-page-content" ).addClass( "page-content-xl" );
+  //$("#icofull").attr("class", "fa-regular fa-window-maximize");
+// $( "#icofull" ).removeClass( "fa-window-restore" ); 
+//  $( "#icofull" ).remove();
+//  $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize "></i>');
+ // alert( "Handler for `click` called." );
+  
+   $( ".fa-compress" ).on( "click", function() {
+ $( this ).removeClass( "fa-compress" );
+  $( this ).addClass( "fa-expand" );
+  //$( "#ico-xl" ).remove();
+  //$( "#btn-xl" ).append('<i id="ico-xl" class="fa-solid fa-expand "></i>');
+  //$( "#ico-xl" ).removeClass( "fa-compress" );
+  //$( "#ico-xl" ).addClass( "fa-expand" );
+  $( "#div-page-content" ).removeClass( "page-content-xl" );
+  $( "#div-page-content" ).addClass( "page-content" );
+  //$("#icofull").attr("class", "fa-regular fa-window-maximize");
+// $( "#icofull" ).removeClass( "fa-window-restore" ); 
+//  $( "#icofull" ).remove();
+//  $( "#btn-full" ).append('<i id="icofull" class="fa-regular fa-window-maximize "></i>');
+ // alert( "Handler for `click` called." );
+} );
+  
+} );*/
+
+
+  
+
+
+
+
+});
+</script>
+    
+<!-- Default Statcounter code for interactiveshell.com
+https://www.interactiveshell.com/ -->
+<script type="text/javascript">
+var sc_project=13037253; 
+var sc_invisible=1; 
+var sc_security="97732576"; 
+</script>
+<script type="text/javascript" src="counter/counter.js" async=""></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="13037253/0/97732576/1/index.htm" alt="Web Analytics Made Easy - Statcounter" referrerpolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+    <style>
+.buttons {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.action_btn {
+  display: inline-block;
+  width: calc(50% - 4px);
+  margin: 0 auto;
+}
+</style>
+
+<div id="cookieSecurityModal" class="d-none">
+    <h3 class="section-title after-line font-20 text-dark-blue mb-10">GDPR</h3>
+
+    <p class="mt-10 cookie-security-modal-description"><p>When you visit any of our websites, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and manage your preferences. Please note, that blocking some types of cookies may impact your experience of the site and the services we are able to offer.</p>
+
+            <form class="js-cookie-form-customize-inputs mt-25">
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox c-not-allowed">
+                            <input type="checkbox" name="settings" value="strictly_necessary" class="custom-control-input" checked="&quot;checked&quot;" disabled="&quot;disabled&quot;" id="cookieModalItemdDRjfkGvQfFzQJpa_record">
+                            <label class="custom-control-label" for="cookieModalItemdDRjfkGvQfFzQJpa_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 c-not-allowed" for="cookieModalItemdDRjfkGvQfFzQJpa_record">Strictly Necessary</label>
+
+                                                    <input type="hidden" name="settings" value="strictly_necessary">
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies are necessary for our website to function properly and cannot be switched off in our systems. They are usually only set in response to actions made by you that amount to a request for services, such as setting your privacy preferences, logging in or filling in forms, or where they’re essential to providing you with a service you have requested. You cannot opt out of these cookies. You can set your browser to block or alert you about these cookies, but if you do, some parts of the site will not then work. These cookies do not store any personally identifiable information.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="performance_cookies" class="custom-control-input" id="cookieModalItemmOzJowgvTnWFlRzz_record">
+                            <label class="custom-control-label" for="cookieModalItemmOzJowgvTnWFlRzz_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemmOzJowgvTnWFlRzz_record">Performance Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site, which helps us optimize your experience. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not be able to use your data in this way.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="functional_cookies" class="custom-control-input" id="cookieModalItemXBMtdYaeSrqMicTH_record">
+                            <label class="custom-control-label" for="cookieModalItemXBMtdYaeSrqMicTH_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemXBMtdYaeSrqMicTH_record">Functional Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third-party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</li>
+                    </ul>
+                </div>
+
+                            
+                <div class="cookie-settings-modal-items-card mb-15">
+                    <div class="form-group d-flex align-items-center mb-0">
+                        <div class="custom-control custom-checkbox ">
+                            <input type="checkbox" name="settings" value="targeting_cookies" class="custom-control-input" id="cookieModalItemXlLqzsvNpRqdcNWP_record">
+                            <label class="custom-control-label" for="cookieModalItemXlLqzsvNpRqdcNWP_record"></label>
+                        </div>
+                        <label class="cursor-pointer font-14 text-dark mb-0 " for="cookieModalItemXlLqzsvNpRqdcNWP_record">Targeting Cookies</label>
+
+                        
+                                                    <button type="button" class="js-cookie-settings-modal-items-help btn-transparent ml-15">
+                                <i data-feather="help-circle" width="20" height="20" class="text-gray"></i>
+                            </button>
+                                            </div>
+
+                    <ul class="cookie-settings-modal-items-card__description">
+                        <li class="font-12 text-dark">These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.</li>
+                    </ul>
+                </div>
+
+            
+        </form>
+    
+    <div class="d-flex flex-wrap align-items-center mt-20 pt-15 border-top">
+        <button type="button" class="js-store-customize-cookies d-inline-flex d-md-none btn btn-primary btn-sm">Confirm</button>
+        <button type="button" class="js-store-customize-cookies d-md-inline-flex btn btn-outline-primary btn-sm mx-15">Confirm my choices</button>
+
+        <button type="button" class="js-accept-all-cookies d-inline-flex d-md-none btn btn-outline-primary btn-sm mx-15">Accept all</button>
+        <button type="button" class="js-accept-all-cookies d-none d-md-inline-flex btn btn-outline-primary btn-sm mx-15">Accept all cookies</button>
+
+        <button type="button" class="btn-transparent close-swl ml-auto font-14 text-danger ">Cancel</button>
+    </div>
+</div>
+
+<script>
+    var oopsLang = 'Oops...';
+    var somethingWentWrongLang = 'Something went wrong...';
+</script>
+<script type="text/javascript" src="assets/default/js/parts/cookie-security.min.js"></script>
+
+
+</html>

@@ -1,0 +1,924 @@
+Uri: https://api.iconify.design/uil:copy.svg?color=%23a569bd&height=24
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\uilcopy.svg
+Content Type: image/svg+xml
+
+Uri: https://appsumo2ppnuxt.b-cdn.net/img/as-badge-featured.2433f63.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\img\as-badge-featured.2433f63.png
+Content Type: image/png
+
+Uri: https://c.statcounter.com/13037253/0/97732576/1/
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\13037253\0\97732576\1\index.htm
+Content Type: image/gif
+
+Uri: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/highlight.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\gh\highlightjs\cdn-release@11.4.0\build\highlight.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/@editorjs/editorjs@2.22.3/dist/editor.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\npm\@editorjs\editorjs@2.22.3\dist\editor.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\npm\swiper@11\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\jquery.blockUI\2.70\jquery.blockUI.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\jquery\3.7.1\jquery.slim.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\magnific-popup.js\1.1.0\jquery.magnific-popup.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\magnific-popup.js\1.1.0\magnific-popup.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\plyr\3.7.3\plyr.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.3/plyr.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\ajax\libs\plyr\3.7.3\plyr.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/ubuntumono/v17/KFOjCneDtsqEr0keqCMhbCc6CsE.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\s\ubuntumono\v17\KFOjCneDtsqEr0keqCMhbCc6CsE.ttf
+Content Type: font/ttf
+
+Uri: https://img.icons8.com/emoji/48/null/party-popper.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\emoji\48\null\party-popper.png
+Content Type: image/png
+
+Uri: https://payhip.com/payhip.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\payhip.js
+Content Type: application/javascript
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/css/all.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\css\all.css
+Content Type: text/css
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900.svg
+Content Type: image/svg+xml
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900.ttf
+Content Type: font/ttf
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900.woff
+Content Type: font/woff
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-duotone-900.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-duotone-900.woff2
+Content Type: font/woff2
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300.svg
+Content Type: image/svg+xml
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300.ttf
+Content Type: font/ttf
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300.woff
+Content Type: font/woff
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-light-300.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-light-300.woff2
+Content Type: font/woff2
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\releases\v5.10.0\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\@phosphor-icons\web@2.1.1\src\index.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\aos@3.0.0-beta.6\dist\aos.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\index.htm
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/about
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\about.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/apple-touch-icon.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/apply
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\apply.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/apply.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\apply.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/assets/backend/css/icons.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\css\icons.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/css/codemirror.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\css\codemirror.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/css/dialog.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\css\dialog.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/css/ide.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\css\ide.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/css/parts-lesson.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\css\parts-lesson.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/js/asciinema-player.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\js\asciinema-player.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/js/autorefresh.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\js\autorefresh.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/js/codemirror.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\js\codemirror.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/backend/custom/js/ide.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\custom\js\ide.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/dripicons-v2.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\dripicons-v2.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/dripicons-v2.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\dripicons-v2-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/dripicons-v2.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\dripicons-v2.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/dripicons-v2.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\dripicons-v2.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/dripicons-v2.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\dripicons-v2.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.eot?v=3.4.93
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.svg?v=3.4.93
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.ttf?v=3.4.93
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.woff2?v=3.4.93
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/assets/backend/fonts/materialdesignicons-webfont.woff?v=3.4.93
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\backend\fonts\materialdesignicons-webfont.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/core/js/codebox.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\core\js\codebox.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/core/js/edjsParser.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\core\js\edjsParser.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/css/app2.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\css\app2.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/default/css/interactive.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\css\interactive.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/default/img/btn_windows.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\btn_windows.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/assets/default/img/chevron-down.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\chevron-down.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/default/img/chevron-up.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\chevron-up.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/default/img/footer/pattern.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\footer\pattern.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/assets/default/img/forum/featured_section.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\forum\featured_section.svg.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/img/forum/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\forum\logox.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/img/forum/recommended-topics.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\forum\recommended-topics.svg.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/img/forum/topics_title_bg.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\forum\topics_title_bg.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/img/mobile-app/hero-bg.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\mobile-app\hero-bg.svg.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/img/mobile-app/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\img\mobile-app\logox.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/default/js/app.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\app.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/js/parts/comment.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\parts\comment.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/js/parts/contact.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\parts\contact.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/js/parts/cookie-security.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\parts\cookie-security.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/js/parts/home.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\parts\home.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/js/parts/text_lesson.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\js\parts\text_lesson.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/static/grid.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\static\grid.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/default/static/play.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\static\play.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/default/static/yes.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\static\yes.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/moment.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\moment.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/owl-carousel2/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\owl-carousel2\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/sweetalert2/dist/sweetalert2.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\sweetalert2\dist\sweetalert2.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/sweetalert2/dist/sweetalert2.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\sweetalert2\dist\sweetalert2.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/swiper/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\swiper\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/toast/jquery.toast.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\toast\jquery.toast.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/default/vendors/toast/jquery.toast.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\default\vendors\toast\jquery.toast.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-300.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-300.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-300.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-300.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-500.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-500.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-500.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-500.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-700.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-700.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-700.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-700.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-regular.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-regular.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/fonts/quicksand-v9-latin-ext_latin-regular.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\fonts\quicksand-v9-latin-ext_latin-regular.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/icons.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\icons.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/css/theme-font.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\css\theme-font.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Brand-Icons.svg?blcw31
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Brand-Icons.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Brand-Icons.ttf?blcw31
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Brand-Icons.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Brand-Icons.woff?blcw31
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Brand-Icons.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Feather-Icons.svg?7ncawf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Feather-Icons.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Feather-Icons.ttf?7ncawf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Feather-Icons.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Feather-Icons.woff?7ncawf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Feather-Icons.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Line-Awesome.svg?15lwq9
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Line-Awesome.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Line-Awesome.ttf?15lwq9
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Line-Awesome.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Line-Awesome.woff?15lwq9
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Line-Awesome.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\logox.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Material-Icons.svg?e8u1sb
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Material-Icons.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Material-Icons.ttf?e8u1sb
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Material-Icons.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/Material-Icons.woff?e8u1sb
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\Material-Icons.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/MaterialIcons-Regular.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\MaterialIcons-Regular.eot.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/MaterialIcons-Regular.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\MaterialIcons-Regular.ttf.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/MaterialIcons-Regular.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\MaterialIcons-Regular.woff.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/MaterialIcons-Regular.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\MaterialIcons-Regular.woff2.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/unicons.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\unicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/unicons.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\unicons.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/unicons.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\unicons.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/fonts/unicons.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\fonts\unicons.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/assets/frontend/default/custom/js/jquery.blockUI.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\frontend\default\custom\js\jquery.blockUI.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/assets/site/css/main.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\site\css\main.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/images/layers-2x.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\images\layers-2x.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/images/layers.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\images\layers.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/images/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\images\logox.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/images/marker-icon.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\images\marker-icon.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/leaflet.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\leaflet.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/assets/vendors/leaflet/leaflet.min.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\assets\vendors\leaflet\leaflet.min.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/blog
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog-img/interactive-shell-codepen.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog-img\interactive-shell-codepen.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/blog-img/interactive-shell-features.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog-img\interactive-shell-features.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/blog-img/interactive-shell-ide-drive-access.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog-img\interactive-shell-ide-drive-access.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/blog-img/interactive-shell-ide.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog-img\interactive-shell-ide.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/blog-img/interactive-shell-terminal.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog-img\interactive-shell-terminal.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/blog/categories/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\categories\logox.png.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/categories/news
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\categories\news.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/categories/Tutorials
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\categories\Tutorials.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/How-to-access-IDE-workspace-from-the-Pro-terminal
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\How-to-access-IDE-workspace-from-the-Pro-terminal.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/Interactive-Shell
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\Interactive-Shell.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/Interactive-shell-demonstration
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\Interactive-shell-demonstration.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/Interactive-Shell-IDE-HTML-Builder
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\Interactive-Shell-IDE-HTML-Builder.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/Interactive-Shell-is-on-AppSumo
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\Interactive-Shell-is-on-AppSumo.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/blog/Interactive-Shell-Windows-App
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\blog\Interactive-Shell-Windows-App.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/contact
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\contact.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/credit-card.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\credit-card.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/drive
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\drive.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/favicon-16x16.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/favicon-32x32.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/favicon.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\favicon.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/favicon1.ico
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\favicon1.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://www.interactiveshell.com/forget-password
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\forget-password.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/interactiveshell-appsumo-deal.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\interactiveshell-appsumo-deal.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/login
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\login.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/logo.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/logox.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\logox.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/money.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\money.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/pages/instruction-for-dealify-codes
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\pages\instruction-for-dealify-codes.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/pages/privacy
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\pages\privacy.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/pages/terms
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\pages\terms.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/port/assets/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\port\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/port/assets/css/style.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\port\assets\css\style.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/port/assets/images/bg.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\port\assets\images\bg.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/port/assets/js/main.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\port\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://www.interactiveshell.com/pricing
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\pricing.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/register
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\register.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/safari-pinned-tab.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/site.webmanifest
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\site.webmanifest
+Content Type: 
+
+Uri: https://www.interactiveshell.com/store/1/default_images/404.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\store\1\default_images\404.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/training
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\training.html
+Content Type: text/html
+
+Uri: https://www.interactiveshell.com/trophy.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\trophy.png
+Content Type: image/png
+
+Uri: https://www.interactiveshell.com/v2/css/bootstrap-grid.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\bootstrap-grid.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/css/all.min.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\css\all.min.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/fontawesome-free-5.12.1-web/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\fontawesome-free-5.12.1-web\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.eot?
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.eot?w118d
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.svg?w118d
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free.svg
+Content Type: image/svg+xml
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.ttf?w118d
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free.ttf
+Content Type: font/ttf
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.woff2?w118d
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free.woff2
+Content Type: font/woff2
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/fonts/Linearicons-Free.woff?w118d
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\fonts\Linearicons-Free.woff
+Content Type: font/woff
+
+Uri: https://www.interactiveshell.com/v2/css/fonts/linear-icons-font/style.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\fonts\linear-icons-font\style.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/v2/css/main2.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\main2.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/v2/css/reset.css
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\v2\css\reset.css
+Content Type: text/css
+
+Uri: https://www.interactiveshell.com/web-terminal.png
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\web-terminal.png
+Content Type: image/png
+
+Uri: https://www.statcounter.com/counter/counter.js
+File Name: C:\Downloaded Web Sites\www.interactiveshell.com\counter\counter.js
+Content Type: application/javascript
+
